@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7315156600094476834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 91689231754394863, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_Name
+      value: SlidingDoor Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431355770615834728, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5901316954544535617, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 91689231754394863, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2304619468131851337}
+  m_SourcePrefab: {fileID: 100100000, guid: 2a3f923e9e95c6e40bbdccca9393a39a, type: 3}
+--- !u!65 &3774325086746686051 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 5901316954544535617, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7315156600094476834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7260109317843367629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 91689231754394863, guid: 2a3f923e9e95c6e40bbdccca9393a39a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7315156600094476834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2304619468131851337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7260109317843367629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: f9d8a0aaaf03d9c42a0eb4625f8fd623, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3774325086746686051}
+          m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2

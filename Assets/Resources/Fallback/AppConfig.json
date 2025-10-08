@@ -1,0 +1,13 @@
+{
+  "saveLocations": {
+      "default": null
+  },
+  "fileDestinations": {
+      "participant_data": ["default"],
+      "motion_data": ["default"],
+      "event_data": ["default"],
+      "Photo": ["default"],
+      "ScreenCapture": ["default"]
+  },
+  "deviceName": null
+}

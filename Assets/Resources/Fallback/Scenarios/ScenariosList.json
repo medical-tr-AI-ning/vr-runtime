@@ -1,0 +1,12 @@
+{
+    "path": "Scenarios",
+    "scenarios": [
+        {
+            "id": "Scenario_Tutorial",
+            "path": "Scenario_Tutorial",
+            "name": "Tutorial",
+            "description": "Szenario zur Einführung in die Bedienung",
+            "visible": false
+        }
+    ]
+}

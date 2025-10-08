@@ -1,0 +1,75 @@
+{
+  "id": "Agent_Hans",
+  "textures": {
+    "path": "Textures",
+    "BaseTextures": {
+      "path": "BaseTextures",
+      "FourSkinTextures": [
+        {
+          "type": "diffuse",
+          "quality": "low",
+          "head": "diffuse/Std_Skin_Head_Pbr_Diffuse.jpg",
+          "body": "diffuse/Std_Skin_Body_Diffuse.jpg",
+          "arms": "diffuse/Std_Skin_Arm_Pbr_Diffuse.jpg",
+          "legs": "diffuse/Std_Skin_Leg_Pbr_Diffuse.jpg",
+          "genitals": "diffuse/Std_Skin_Genitals_Pbr_Diffuse.jpg",
+          "fingernails": "diffuse/Std_Nails_Pbr_Diffuse.jpg"
+        }
+      ],
+      "Skinmasks": {
+        "type": "map",
+        "quality": "low",
+        "together": "skintypes/masks/Skinmask_Together.png",
+        "genitals": "skintypes/masks/Skinmask_Genitals.png"
+      },
+      "Patches": {
+        "type": "patches",
+        "quality": "low",
+        "whiteColor": "skintypes/patches/WhiteTexture.png",
+        "meshedSkinColor": "skintypes/patches/MeshedSkin_Basecolor.png",
+        "meshedSkinNormal": "skintypes/patches/MeshedSkin_Normalmap.png",
+        "meshedSkinHair": "skintypes/patches/MeshedSkin_Haare.png",
+        "ridgedSkinColor": "skintypes/patches/RidgedSkin_Basecolor.png",
+        "ridgedSkinNormal": "skintypes/patches/RidgedSkin_Normalmap.png",
+        "mucosaDiffuse": "skintypes/patches/Mucosa.png"
+      }
+    },
+    "CaseTextures": {
+      "path": "CaseTextures",
+      "FourSkinTextures": [
+         {
+          "type": "diffuse",
+          "quality": "low",
+          "head": "low/diffuse/lesions_head.png",
+          "body": "low/diffuse/lesions_body.png",
+          "arms": "low/diffuse/lesions_arms.png",
+          "legs": "low/diffuse/lesions_legs.png"
+        },
+        {
+          "type": "map",
+          "quality": "low",
+          "head": "low/maps/lesions_head_hm.png",
+          "body": "low/maps/lesions_body_hm.png",
+          "arms": "low/maps/lesions_arms_hm.png",
+          "legs": "low/maps/lesions_legs_hm.png"
+        },
+        {
+          "type": "map",
+          "quality": "high",
+          "head": "high/maps/lesions_head.png",
+          "body": "high/maps/lesions_body.png",
+          "arms": "high/maps/lesions_arms.png",
+          "legs": "high/maps/lesions_legs.png"
+        }                
+      ],
+      "Atlantes": [
+        {
+          "type": "diffuse",
+          "quality": "high",
+          "texture": "high/diffuse/lesions_atlas.png",
+          "textureMeta": "high/diffuse/lesions_atlas_meta.png"
+        }
+      ]              
+    }
+  }
+}

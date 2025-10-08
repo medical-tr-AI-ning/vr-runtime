@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &830400497003043618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5142067008798190531}
+  - component: {fileID: 7237843360152915479}
+  m_Layer: 0
+  m_Name: CacheBuilderElevenLabs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5142067008798190531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830400497003043618}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4618271940084166474}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7237843360152915479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830400497003043618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2af27a52bd09b54ca042ab4cc3feede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speechSynthesizerController: {fileID: 8489695875544979110}
+  pathToDialogueOptions: Scenarios/Scenario_SkinCancerScreening/Agent_Hans/DialogueOptions.json
+  Execute: 0
+--- !u!1001 &1518304330995400428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5142067008798190531}
+    m_Modifications:
+    - target: {fileID: 2668551256956850257, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_Name
+      value: ElevenLabsSpeechSynthesizer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713290824862638026, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: m_Name
+      value: SynthesisSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972536312416954442, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: _mute
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972536312416954442, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: _withSubtitle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972536312416954442, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      propertyPath: _speechSynthesizer
+      value: 
+      objectReference: {fileID: 5700579675461234668}
+    m_RemovedComponents:
+    - {fileID: 7157409247719471785, guid: 58881e3e3a6bb694b9d065ef8c41a776, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2668551256956850257, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5700579675461234668}
+  m_SourcePrefab: {fileID: 100100000, guid: 58881e3e3a6bb694b9d065ef8c41a776, type: 3}
+--- !u!1 &3466224169287364285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2668551256956850257, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+    type: 3}
+  m_PrefabInstance: {fileID: 1518304330995400428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5700579675461234668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466224169287364285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68802484746ba514fba37b325ef920f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ApiKey: <API-KEY>
+  _voiceIDDoctor: SAz9YHcvj6GT2YYXdXww
+  _voiceIDPatient: SMQKgThKQvXmuAzjIP2x
+  _modelID: eleven_multilingual_v2
+  _stability: 0.5
+  _similarityBoost: 0.75
+--- !u!4 &4618271940084166474 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6126439631764591014, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+    type: 3}
+  m_PrefabInstance: {fileID: 1518304330995400428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8489695875544979110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6972536312416954442, guid: 58881e3e3a6bb694b9d065ef8c41a776,
+    type: 3}
+  m_PrefabInstance: {fileID: 1518304330995400428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038088f251e9fc0478a8e6f2501a007d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,104 @@
+{
+    "misc-repeat": [
+        "Wie bereits gesagt: "
+    ],
+    "talk-hello": [
+        "Guten Tag.",
+        "Hallo."
+    ],
+    "talk-bye": [
+        "Vielen Dank und einen schönen Tag noch. Auf Wiedersehen!",
+        "Das ging ja schnell. Danke, dass Sie sich die Zeit genommen haben. Tschüss!"
+    ],
+    "talk-reason": [
+        "Ich möchte einmal meine Haut untersuchen lassen.",
+        "Ich möchte gerne ein Hautkrebsscreening durchführen lassen.",
+        "Ich bin hier für ein Hautkrebsscreening.",
+        "Ich würde gerne meine Haut auf Krebs untersuchen lassen.",
+        "Meine Frau schickt mich zur Hautvorsorge.",
+        "Einmal bitte die Vorsorgeuntersuchung für die Haut.",
+        "Rein zur Vorsorge möchte ich mal meine Haut überprüfen lassen.",
+        "Ich dachte, es wäre mal Zeit für eine Vorsorgeuntersuchung gegen Hautkrebs, da ich mich ab und zu ganz gerne länger in die Sonne lege."
+    ],
+    "talk-complaints": [
+        "Soweit ist alles bestens.",
+        "Soweit ich weiß, habe ich keine Beschwerden.",
+        "Mir ist nichts Ungewöhnliches aufgefallen.",
+        "Eigentlich ist alles gut. Meine Frau drängt mich aber, die Vorsorgeuntersuchung zu machen.",
+        "Meine Muttermale gefallen mir nicht so, aber davon abgesehen glaube ich nicht, dass was Schlimmes dabei ist.",
+        "Nein, ich habe keine Beschwerden, aber ich wollte schon lange mal die Vorsorgeuntersuchung machen lassen.",
+        "Nein, ich habe nichts, aber es kann nicht schaden, sich mal durchchecken zu lassen."
+    ],
+    "talk-medicine": [
+        "Ich nehme aktuell keine Medikamente ein.",
+        "Ich nehme nur Ramipril wegen des Blutdrucks.",
+        "Nur wenn die Frühlingszeit losgeht und der Heuschnupfen mich ärgert, nehme ich mal etwas ein.",
+        "Ab und zu mal eine Ibuprofen, aber nichts Wildes.",
+        "Normalerweise nehme ich keine Medikamente, nein."
+    ],
+    "talk-allergies": [
+        "Mir ist keine Allergie bekannt.",
+        "Ich habe nur ein bisschen Heuschnupfen.",
+        "Kiwis vertrage ich nicht so gut.",
+        "Nichts Relevantes. Ich habe nur eine Hausstauballergie.",
+        "Ich bin laktoseintolerant."
+    ],
+    "talk-dermatological-history": [
+        "Bisher war ich zum Glück immer gesund.",
+        "Ich hab nur ein paar Muttermale, die mir nicht gefallen, aber sonst nichts.",
+        "Ich wüsste nicht, dass ich welche habe.",
+        "Als Kind hatte ich mal mit Warzen zu kämpfen, aber das ist schon ewig her.",
+        "Als Kind hatte ich mal etwas Neurodermitis. Aber das ist schon lange weg.",
+        "Ab und an hatte ich mal Hautunreinheiten, aber nichts Außergewöhnliches.",
+        "Nein, ich denke, alle meine Muttermale sehen normal aus, aber man weiß ja nie."
+    ],
+    "talk-family-allergies": [
+        "Ich glaube keiner in meiner Familie hat was.",
+        "Mir sind nur Heuschnupfen und Katzenhaare bekannt.",
+        "Meiner Eltern sind laktoseintolerant."
+    ],
+    "talk-family-dermatological-history": [
+        "Eigentlich sind mir keine Vorerkrankungen bekannt, nein.",
+        "Wir sind alle gesund.",
+        "Mein Vater hatte Schuppenflechte. Aber nur, wenn er viel Stress hatte.",
+        "Meine Mutter hatte als Kind etwas Neurodermitis.",
+        "Außer ein paar Fällen von Akne in der Jugend fällt mir eigentlich nichts Besonderes ein."
+    ],
+    "talk-consent-alone": [
+        "Ja, Sie können die Untersuchung auch alleine bei mir durchführen.",
+        "Ja, es ist in Ordnung, wenn Sie die Untersuchung auch ohne zweite Person durchführen.",
+        "Ich habe kein Problem damit, wenn Sie die Untersuchung alleine machen."
+    ],
+    "talk-consent-intimacy": [
+        "Ja, ich bin einverstanden, dass Sie mich auch im Intimbereich untersuchen."
+    ],
+    "movement-undress": [
+        "Okay."
+    ],
+    "movement-reset": null,
+    "movement-dress": null,
+    "movement-undress-underwear": null,
+    "movement-dress-underwear": null,
+    "movement-body-turn": null,
+    "movement-body-turn-left": null,
+    "movement-body-turn-right": null,
+    "movement-head-left": null,
+    "movement-head-right": null,
+    "movement-head-backward": null,
+    "movement-head-forward": null,
+    "movement-mouth-open": null,
+    "movement-mouth-close": null,
+    "movement-arm-raise-left": null,
+    "movement-arm-raise-right": null,
+    "movement-arm-raise-both": null,
+    "movement-hand-turn-left": null,
+    "movement-hand-turn-right": null,
+    "movement-hand-turn-both": null,
+    "movement-fingers-spread-left": null,
+    "movement-fingers-spread-right": null,
+    "movement-fingers-spread-both": null,
+    "movement-leg-bend-left": null,
+    "movement-leg-bend-right": null,
+    "movement-toes-spread-left": null,
+    "movement-toes-spread-right": null
+}

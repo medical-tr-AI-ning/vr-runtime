@@ -1,0 +1,4018 @@
+{
+  "$id": "1",
+  "ScenarioName": "OpenSourceKomplett",
+  "DisplayTitle": "OpenSourceKomplett",
+  "Description": "Open Source makehuman test",
+  "ModificationDate": "2025-01-17T16:40:23.331327+01:00",
+  "Environments": [
+    {
+      "$id": "2",
+      "EnvironmentID": "default",
+      "ObjectPlacements": [
+        {
+          "$id": "3",
+          "PrefabID": "DigitalDermatoscope",
+          "SerializableTransform": {
+            "$id": "4",
+            "PositionX": -2.52998066,
+            "PositionY": 1.1245991,
+            "PositionZ": 0.301216424,
+            "RotationX": 0.4844985,
+            "RotationY": 0.546683669,
+            "RotationZ": 0.452914327,
+            "RotationW": 0.5111427
+          }
+        },
+        {
+          "$id": "5",
+          "PrefabID": "Glovebox",
+          "SerializableTransform": {
+            "$id": "6",
+            "PositionX": -2.58894777,
+            "PositionY": 1.11022246,
+            "PositionZ": -0.324095,
+            "RotationX": 0.0,
+            "RotationY": 0.0,
+            "RotationZ": 0.0,
+            "RotationW": 1.0
+          }
+        },
+        {
+          "$id": "7",
+          "PrefabID": "EmesisBasin",
+          "SerializableTransform": {
+            "$id": "8",
+            "PositionX": -2.56349969,
+            "PositionY": 1.11007535,
+            "PositionZ": -0.00129450858,
+            "RotationX": -3.16413477E-15,
+            "RotationY": -1.37333672E-10,
+            "RotationZ": 1.86517427E-13,
+            "RotationW": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "Agents": [
+    {
+      "$id": "9",
+      "AgentID": "Agent_Max",
+      "Name": "Felix",
+      "Age": "",
+      "Occupation": "",
+      "Weight": "",
+      "Height": "170 cm",
+      "ShowDetails": true
+    }
+  ],
+  "Pathologies": [
+    {
+      "$id": "10",
+      "Pathology": {
+        "$id": "11",
+        "PathologyID": "Case 0",
+        "Textures": [
+          "SkinTexture\\a50b892c-8629-4e41-877c-7ba0bb55cb50"
+        ],
+        "HeightTextures": [
+          "SkinTexture\\b1ba3d3a-1075-49db-94df-eb54c21a02dc"
+        ],
+        "Melanoma": [
+          {
+            "$id": "12",
+            "Spreading": 0.0,
+            "Limitation": 0.0,
+            "Elevation": 0.0,
+            "Brightness": 0.0,
+            "Contrast": 1.0,
+            "ColorPosition": [
+              33.1,
+              -33.9
+            ],
+            "BaseShape": "Melanoma\\0cfd3aa4-852f-42e9-b967-3b8ec6627fce",
+            "Position": [
+              -50.77452,
+              1.62538373,
+              0.0752036944
+            ],
+            "Placement": "Hinterkopf, links",
+            "SizeUI": 0.349705637,
+            "TextureCoord": [
+              0.882297158,
+              0.5212444
+            ],
+            "Shape": "Melanoma\\dbe15ad6-dde5-4e49-b86b-e4510de769ba",
+            "Size": 0.0234375
+          },
+          {
+            "$id": "13",
+            "Spreading": 0.0,
+            "Limitation": 10.2564793,
+            "Elevation": 0.5,
+            "Brightness": 0.0,
+            "Contrast": 1.0,
+            "ColorPosition": [
+              33.1,
+              -33.9
+            ],
+            "BaseShape": "Melanoma\\eaad7bbe-f069-4562-87c2-c3906d880118",
+            "Position": [
+              -50.6635933,
+              1.34663689,
+              0.0808839351
+            ],
+            "Placement": "Stirn, rechts",
+            "SizeUI": 1.0,
+            "TextureCoord": [
+              0.341124833,
+              0.747965932
+            ],
+            "Shape": "Melanoma\\97e220a4-2e6f-41a6-9a5d-93e4588028f9",
+            "Size": 0.0234375
+          }
+        ],
+        "Naevi": [
+          {
+            "$id": "14",
+            "Spread": 1.0,
+            "Elevation": 1.0,
+            "HighRes": [
+              {
+                "$id": "15",
+                "Position": [
+                  1375.0,
+                  1103.0
+                ],
+                "Texture": "Naevi\\0e5fa2fa-c9bd-4dda-881c-a556c8efcb32"
+              },
+              {
+                "$id": "16",
+                "Position": [
+                  1715.0,
+                  990.0
+                ],
+                "Texture": "Naevi\\ad3f81e4-f060-4261-915a-2ec81a510c05"
+              },
+              {
+                "$id": "17",
+                "Position": [
+                  1921.0,
+                  1132.0
+                ],
+                "Texture": "Naevi\\6eebfcfa-562d-4fdf-82d1-5d421e7a867a"
+              },
+              {
+                "$id": "18",
+                "Position": [
+                  1039.0,
+                  1278.0
+                ],
+                "Texture": "Naevi\\961b5ab3-c9a3-4bb6-bdc7-cea3e3bfd907"
+              },
+              {
+                "$id": "19",
+                "Position": [
+                  1254.0,
+                  1381.0
+                ],
+                "Texture": "Naevi\\d2c5c136-8bcd-4755-872f-8444714ba136"
+              },
+              {
+                "$id": "20",
+                "Position": [
+                  1530.0,
+                  1583.0
+                ],
+                "Texture": "Naevi\\bba91e2c-bd04-464f-b615-2826037fa09e"
+              },
+              {
+                "$id": "21",
+                "Position": [
+                  1900.0,
+                  1570.0
+                ],
+                "Texture": "Naevi\\c2f9fd55-c9c6-40fd-a383-475ee3fc45b7"
+              },
+              {
+                "$id": "22",
+                "Position": [
+                  1715.0,
+                  1893.0
+                ],
+                "Texture": "Naevi\\bdb1af56-2279-4916-9dac-266b7c074bea"
+              },
+              {
+                "$id": "23",
+                "Position": [
+                  1637.0,
+                  2164.0
+                ],
+                "Texture": "Naevi\\5d31357b-3a5f-4a45-9720-a9b57e867a78"
+              },
+              {
+                "$id": "24",
+                "Position": [
+                  1874.0,
+                  2310.0
+                ],
+                "Texture": "Naevi\\c3fabacc-eead-46d6-bfd0-5423ada61064"
+              },
+              {
+                "$id": "25",
+                "Position": [
+                  1607.0,
+                  2435.0
+                ],
+                "Texture": "Naevi\\2f588f1c-a763-42ac-b388-2eaf60d05a35"
+              },
+              {
+                "$id": "26",
+                "Position": [
+                  1328.0,
+                  2112.0
+                ],
+                "Texture": "Naevi\\fc471b95-78ea-4994-a233-864a06f0edc2"
+              },
+              {
+                "$id": "27",
+                "Position": [
+                  1448.0,
+                  1897.0
+                ],
+                "Texture": "Naevi\\bb545680-fe60-418e-8b72-de3494c1bf2d"
+              },
+              {
+                "$id": "28",
+                "Position": [
+                  1254.0,
+                  1699.0
+                ],
+                "Texture": "Naevi\\c1d9889f-5db7-4722-9b92-a9ea153ea7fc"
+              },
+              {
+                "$id": "29",
+                "Position": [
+                  1082.0,
+                  1919.0
+                ],
+                "Texture": "Naevi\\9477baf3-c587-46a1-a783-45f2fcc9dd19"
+              },
+              {
+                "$id": "30",
+                "Position": [
+                  1048.0,
+                  1557.0
+                ],
+                "Texture": "Naevi\\bbe3033c-ec65-4e08-ad2f-7fab217b0d84"
+              },
+              {
+                "$id": "31",
+                "Position": [
+                  463.0,
+                  486.0
+                ],
+                "Texture": "Naevi\\7828a68a-3f70-4f2c-b518-bec2070119d5"
+              },
+              {
+                "$id": "32",
+                "Position": [
+                  622.0,
+                  335.0
+                ],
+                "Texture": "Naevi\\d953fa9c-022a-44b5-900a-c72fdd8d4e8e"
+              },
+              {
+                "$id": "33",
+                "Position": [
+                  859.0,
+                  438.0
+                ],
+                "Texture": "Naevi\\e39c67ef-431f-415b-a6f6-ef40e9d38659"
+              },
+              {
+                "$id": "34",
+                "Position": [
+                  1332.0,
+                  287.0
+                ],
+                "Texture": "Naevi\\b47f8379-b221-4da0-9f0e-2ee08fd6545e"
+              },
+              {
+                "$id": "35",
+                "Position": [
+                  1186.0,
+                  582.0
+                ],
+                "Texture": "Naevi\\418686cf-657e-4880-bcb0-6e1fba301761"
+              },
+              {
+                "$id": "36",
+                "Position": [
+                  1650.0,
+                  534.0
+                ],
+                "Texture": "Naevi\\cd267d9b-6e00-434f-ae15-ee4d82abf324"
+              },
+              {
+                "$id": "37",
+                "Position": [
+                  1852.0,
+                  745.0
+                ],
+                "Texture": "Naevi\\7bc4088a-89dd-4af6-b41b-8fe7372a7764"
+              },
+              {
+                "$id": "38",
+                "Position": [
+                  1491.0,
+                  798.0
+                ],
+                "Texture": "Naevi\\d9956a0f-93ca-466b-9a40-1db04dc32a5c"
+              },
+              {
+                "$id": "39",
+                "Position": [
+                  261.0,
+                  865.0
+                ],
+                "Texture": "Naevi\\fbba983b-900e-413c-8dc8-a8e30c4b4550"
+              },
+              {
+                "$id": "40",
+                "Position": [
+                  631.0,
+                  769.0
+                ],
+                "Texture": "Naevi\\fe25b3ea-13e5-425a-b05b-6ea1ff8733bd"
+              },
+              {
+                "$id": "41",
+                "Position": [
+                  773.0,
+                  1092.0
+                ],
+                "Texture": "Naevi\\ec492f61-225c-4570-a29b-5081bd50dea0"
+              },
+              {
+                "$id": "42",
+                "Position": [
+                  1104.0,
+                  961.0
+                ],
+                "Texture": "Naevi\\80467169-446f-4bff-b4fa-755810d58a7d"
+              },
+              {
+                "$id": "43",
+                "Position": [
+                  165.0,
+                  1223.0
+                ],
+                "Texture": "Naevi\\ca284f6d-8acd-4616-85c0-4ca992645a3d"
+              },
+              {
+                "$id": "44",
+                "Position": [
+                  535.0,
+                  1365.0
+                ],
+                "Texture": "Naevi\\01155957-7d3c-43af-a1bc-e12018fbe7d6"
+              },
+              {
+                "$id": "45",
+                "Position": [
+                  324.0,
+                  1461.0
+                ],
+                "Texture": "Naevi\\53272065-087e-4276-a108-abda39937b7b"
+              },
+              {
+                "$id": "46",
+                "Position": [
+                  117.0,
+                  1766.0
+                ],
+                "Texture": "Naevi\\140d5f9d-419d-45d7-9c84-d163e7a1d2f3"
+              },
+              {
+                "$id": "47",
+                "Position": [
+                  535.0,
+                  1862.0
+                ],
+                "Texture": "Naevi\\6a6b79e9-7c10-4cc3-80bd-259b5f3c8d32"
+              },
+              {
+                "$id": "48",
+                "Position": [
+                  324.0,
+                  1958.0
+                ],
+                "Texture": "Naevi\\bffd45ba-788d-40de-ab1e-56b44ab504c7"
+              },
+              {
+                "$id": "49",
+                "Position": [
+                  728.0,
+                  2126.0
+                ],
+                "Texture": "Naevi\\4fd991a3-1437-4476-8246-bebc87c14610"
+              },
+              {
+                "$id": "50",
+                "Position": [
+                  487.0,
+                  2222.0
+                ],
+                "Texture": "Naevi\\66d4eb6b-56e8-436f-a025-2b9566cecb1e"
+              },
+              {
+                "$id": "51",
+                "Position": [
+                  824.0,
+                  2381.0
+                ],
+                "Texture": "Naevi\\5ad5e4f9-f9e1-4f70-aec6-543821ffc4b6"
+              },
+              {
+                "$id": "52",
+                "Position": [
+                  1078.0,
+                  2639.0
+                ],
+                "Texture": "Naevi\\19f84d13-12de-4e73-a3a5-e27323e51d3d"
+              },
+              {
+                "$id": "53",
+                "Position": [
+                  1383.0,
+                  2687.0
+                ],
+                "Texture": "Naevi\\5560c08f-7d77-4bbf-902b-6788b788d286"
+              },
+              {
+                "$id": "54",
+                "Position": [
+                  1654.0,
+                  2915.0
+                ],
+                "Texture": "Naevi\\a649b265-3dde-443a-b2fd-d36988c0ccb7"
+              },
+              {
+                "$id": "55",
+                "Position": [
+                  1558.0,
+                  3227.0
+                ],
+                "Texture": "Naevi\\f992381a-e259-4172-9244-baf00839494f"
+              },
+              {
+                "$id": "56",
+                "Position": [
+                  1859.0,
+                  3399.0
+                ],
+                "Texture": "Naevi\\69b23c86-29dc-415d-bf77-8f36786d92c6"
+              },
+              {
+                "$id": "57",
+                "Position": [
+                  1654.0,
+                  3593.0
+                ],
+                "Texture": "Naevi\\fcd99bdd-6262-4c5b-ac5f-fad82b9f5047"
+              },
+              {
+                "$id": "58",
+                "Position": [
+                  1263.0,
+                  3399.0
+                ],
+                "Texture": "Naevi\\4e9a6af7-6421-40ae-9501-76e0e1994a91"
+              },
+              {
+                "$id": "59",
+                "Position": [
+                  1359.0,
+                  2995.0
+                ],
+                "Texture": "Naevi\\a562d893-5322-4a54-b99f-09698d03e045"
+              },
+              {
+                "$id": "60",
+                "Position": [
+                  1110.0,
+                  3150.0
+                ],
+                "Texture": "Naevi\\98b68b97-e395-408f-9ac9-946c19fbdf9a"
+              },
+              {
+                "$id": "61",
+                "Position": [
+                  848.0,
+                  2897.0
+                ],
+                "Texture": "Naevi\\24c6ca56-5992-44f2-a477-77f19816a1e3"
+              },
+              {
+                "$id": "62",
+                "Position": [
+                  583.0,
+                  2600.0
+                ],
+                "Texture": "Naevi\\484ad0a9-87e4-4fc1-8033-7df5ce9854fb"
+              },
+              {
+                "$id": "63",
+                "Position": [
+                  269.0,
+                  2993.0
+                ],
+                "Texture": "Naevi\\e78def8b-82fb-4b1e-ac37-c7cba6e12209"
+              },
+              {
+                "$id": "64",
+                "Position": [
+                  487.0,
+                  3054.0
+                ],
+                "Texture": "Naevi\\431987ad-ce14-4f9b-953e-b0135dac7d4e"
+              },
+              {
+                "$id": "65",
+                "Position": [
+                  2226.0,
+                  2499.0
+                ],
+                "Texture": "Naevi\\60a04d7a-7fdd-4e82-b0b6-2464d102f24b"
+              },
+              {
+                "$id": "66",
+                "Position": [
+                  2403.0,
+                  2177.0
+                ],
+                "Texture": "Naevi\\69455764-daff-46b4-833a-03d27090f2eb"
+              },
+              {
+                "$id": "67",
+                "Position": [
+                  2583.0,
+                  2379.0
+                ],
+                "Texture": "Naevi\\5957f54f-5ca7-4d4d-a97b-e7655002036a"
+              },
+              {
+                "$id": "68",
+                "Position": [
+                  2828.0,
+                  2202.0
+                ],
+                "Texture": "Naevi\\1b58788e-f792-44a3-9b4f-10c554bf7434"
+              },
+              {
+                "$id": "69",
+                "Position": [
+                  2613.0,
+                  1944.0
+                ],
+                "Texture": "Naevi\\b45af9d5-b40b-4484-b685-57180b082e2a"
+              },
+              {
+                "$id": "70",
+                "Position": [
+                  2321.0,
+                  1897.0
+                ],
+                "Texture": "Naevi\\979127fa-6dba-426e-9041-901515d36694"
+              },
+              {
+                "$id": "71",
+                "Position": [
+                  2364.0,
+                  1639.0
+                ],
+                "Texture": "Naevi\\db16c076-152f-446a-a9e1-d095c32811dc"
+              },
+              {
+                "$id": "72",
+                "Position": [
+                  2166.0,
+                  1188.0
+                ],
+                "Texture": "Naevi\\8202337c-518f-4821-bd3b-250491c93d26"
+              },
+              {
+                "$id": "73",
+                "Position": [
+                  2175.0,
+                  891.0
+                ],
+                "Texture": "Naevi\\0cabe944-e030-4835-b3f2-65f5bce84e35"
+              },
+              {
+                "$id": "74",
+                "Position": [
+                  2428.0,
+                  964.0
+                ],
+                "Texture": "Naevi\\a0ac8493-9d4d-4785-a4ff-6762ec2016d1"
+              },
+              {
+                "$id": "75",
+                "Position": [
+                  2695.0,
+                  1201.0
+                ],
+                "Texture": "Naevi\\d48f67c4-acfe-4a54-a796-c0f124f54485"
+              },
+              {
+                "$id": "76",
+                "Position": [
+                  2940.0,
+                  1299.0
+                ],
+                "Texture": "Naevi\\0167f7a3-8b0a-44c4-99c9-d5c3b8ee00a5"
+              },
+              {
+                "$id": "77",
+                "Position": [
+                  2987.0,
+                  1514.0
+                ],
+                "Texture": "Naevi\\e2c4c456-5fc7-46ae-80f1-b47b3fa7772d"
+              },
+              {
+                "$id": "78",
+                "Position": [
+                  2987.0,
+                  1721.0
+                ],
+                "Texture": "Naevi\\33d0e11f-f066-4704-92ff-40055ef05850"
+              },
+              {
+                "$id": "79",
+                "Position": [
+                  2837.0,
+                  1858.0
+                ],
+                "Texture": "Naevi\\7cb75b70-cca0-47e4-b6aa-533c9089ca01"
+              },
+              {
+                "$id": "80",
+                "Position": [
+                  2656.0,
+                  1678.0
+                ],
+                "Texture": "Naevi\\dcf95b9a-5445-4898-a3fd-ab7b08407c06"
+              },
+              {
+                "$id": "81",
+                "Position": [
+                  2579.0,
+                  1467.0
+                ],
+                "Texture": "Naevi\\4cf0335b-65d8-43c8-ab74-4e91301e76c4"
+              },
+              {
+                "$id": "82",
+                "Position": [
+                  2060.0,
+                  474.0
+                ],
+                "Texture": "Naevi\\76e6e113-b83f-449a-b24c-31915a01d633"
+              },
+              {
+                "$id": "83",
+                "Position": [
+                  2250.0,
+                  656.0
+                ],
+                "Texture": "Naevi\\131d2002-28dc-4dea-a756-6a49904ecb02"
+              },
+              {
+                "$id": "84",
+                "Position": [
+                  2580.0,
+                  606.0
+                ],
+                "Texture": "Naevi\\117c1efd-b7f8-4c84-a68a-c86db9987531"
+              },
+              {
+                "$id": "85",
+                "Position": [
+                  2917.0,
+                  673.0
+                ],
+                "Texture": "Naevi\\ea7ab6d8-50e3-4d3e-a6ba-9f53f380e672"
+              },
+              {
+                "$id": "86",
+                "Position": [
+                  2672.0,
+                  819.0
+                ],
+                "Texture": "Naevi\\bfae4dd4-bb6d-4353-bd99-9741edcbeedc"
+              },
+              {
+                "$id": "87",
+                "Position": [
+                  2484.0,
+                  258.0
+                ],
+                "Texture": "Naevi\\17a0526e-6574-4227-a9af-6595394570ec"
+              },
+              {
+                "$id": "88",
+                "Position": [
+                  3102.0,
+                  426.0
+                ],
+                "Texture": "Naevi\\104b4acf-ce2d-48ae-ae76-fea1ecc12d54"
+              },
+              {
+                "$id": "89",
+                "Position": [
+                  3502.0,
+                  474.0
+                ],
+                "Texture": "Naevi\\80b70911-6fe9-4db1-8c04-b57cd8d4ae7b"
+              },
+              {
+                "$id": "90",
+                "Position": [
+                  2951.0,
+                  210.0
+                ],
+                "Texture": "Naevi\\8beabb8b-ad19-47b1-a9bc-5207113c9afc"
+              },
+              {
+                "$id": "91",
+                "Position": [
+                  3762.0,
+                  804.0
+                ],
+                "Texture": "Naevi\\95ba982b-36c3-404b-872f-87a8fc39f6a9"
+              },
+              {
+                "$id": "92",
+                "Position": [
+                  3396.0,
+                  756.0
+                ],
+                "Texture": "Naevi\\f43c0699-9588-4b01-b647-8e16ced92cf9"
+              },
+              {
+                "$id": "93",
+                "Position": [
+                  3300.0,
+                  1062.0
+                ],
+                "Texture": "Naevi\\06229d42-f83f-43ac-9c60-a07727041c96"
+              },
+              {
+                "$id": "94",
+                "Position": [
+                  2880.0,
+                  1014.0
+                ],
+                "Texture": "Naevi\\6a41965d-6a2e-4966-9d1b-60c65b7401f3"
+              },
+              {
+                "$id": "95",
+                "Position": [
+                  3858.0,
+                  1110.0
+                ],
+                "Texture": "Naevi\\03c924fa-84a6-48da-9c78-7a535ff6611b"
+              },
+              {
+                "$id": "96",
+                "Position": [
+                  3961.0,
+                  1365.0
+                ],
+                "Texture": "Naevi\\2cc7d8a8-2b1b-49da-bbe1-19edea17aeb3"
+              },
+              {
+                "$id": "97",
+                "Position": [
+                  3492.0,
+                  1202.0
+                ],
+                "Texture": "Naevi\\b867e2bc-49e2-4a5d-9724-789124397956"
+              },
+              {
+                "$id": "98",
+                "Position": [
+                  3540.0,
+                  1500.0
+                ],
+                "Texture": "Naevi\\fb8ceb2c-5d27-440f-84ec-b6c761477d82"
+              },
+              {
+                "$id": "99",
+                "Position": [
+                  3828.0,
+                  1596.0
+                ],
+                "Texture": "Naevi\\b198a20d-21ad-4744-8bb8-4dc6247a610c"
+              },
+              {
+                "$id": "100",
+                "Position": [
+                  3492.0,
+                  1742.0
+                ],
+                "Texture": "Naevi\\f0c41a3c-bd4f-46b3-8055-ca1c6b440dba"
+              },
+              {
+                "$id": "101",
+                "Position": [
+                  3780.0,
+                  1918.0
+                ],
+                "Texture": "Naevi\\f8e93dbe-0982-44bc-8c63-6a363e2bd584"
+              },
+              {
+                "$id": "102",
+                "Position": [
+                  3588.0,
+                  2401.0
+                ],
+                "Texture": "Naevi\\1973bf14-d586-44a6-91ad-c2d5ea704a1e"
+              },
+              {
+                "$id": "103",
+                "Position": [
+                  3444.0,
+                  2089.0
+                ],
+                "Texture": "Naevi\\f823a0d8-6fbf-495b-9efa-d6b8e8b902d3"
+              },
+              {
+                "$id": "104",
+                "Position": [
+                  3190.0,
+                  2140.0
+                ],
+                "Texture": "Naevi\\a7c38c1c-9144-4a60-8d3c-e38319b267a1"
+              },
+              {
+                "$id": "105",
+                "Position": [
+                  3142.0,
+                  2497.0
+                ],
+                "Texture": "Naevi\\753e9131-0aed-4a56-be1c-92f64445a031"
+              },
+              {
+                "$id": "106",
+                "Position": [
+                  2880.0,
+                  2545.0
+                ],
+                "Texture": "Naevi\\2a622432-eec2-4f8b-9984-8e55f1f00a97"
+              },
+              {
+                "$id": "107",
+                "Position": [
+                  2584.0,
+                  2687.0
+                ],
+                "Texture": "Naevi\\40c47c01-21d1-41f8-9403-7d852b1c691e"
+              },
+              {
+                "$id": "108",
+                "Position": [
+                  2395.0,
+                  2989.0
+                ],
+                "Texture": "Naevi\\27a130f6-791f-43b9-a627-315833c62a3f"
+              },
+              {
+                "$id": "109",
+                "Position": [
+                  2091.0,
+                  3178.0
+                ],
+                "Texture": "Naevi\\37f63c3e-a2b4-42e6-91a0-10b399e08481"
+              },
+              {
+                "$id": "110",
+                "Position": [
+                  2187.0,
+                  2886.0
+                ],
+                "Texture": "Naevi\\634410a1-f930-4054-9d82-372e54384670"
+              },
+              {
+                "$id": "111",
+                "Position": [
+                  2395.0,
+                  3274.0
+                ],
+                "Texture": "Naevi\\9023974a-3d6d-4ab2-b0ab-4689e0dffa05"
+              },
+              {
+                "$id": "112",
+                "Position": [
+                  2091.0,
+                  3507.0
+                ],
+                "Texture": "Naevi\\30e6c1f4-1d9a-4d93-8154-f780face5495"
+              },
+              {
+                "$id": "113",
+                "Position": [
+                  2348.0,
+                  3553.0
+                ],
+                "Texture": "Naevi\\e3785700-761e-4152-8f66-fcf7903e82e7"
+              },
+              {
+                "$id": "114",
+                "Position": [
+                  2768.0,
+                  3457.0
+                ],
+                "Texture": "Naevi\\c9a40ebb-9271-41da-988a-40ae99c2ba50"
+              },
+              {
+                "$id": "115",
+                "Position": [
+                  2720.0,
+                  2989.0
+                ],
+                "Texture": "Naevi\\9279df62-a124-4c5e-bdaa-307d558688c5"
+              },
+              {
+                "$id": "116",
+                "Position": [
+                  2857.0,
+                  3150.0
+                ],
+                "Texture": "Naevi\\24879aa0-7fca-46fa-a3fb-0b01b4c4c90c"
+              },
+              {
+                "$id": "117",
+                "Position": [
+                  3142.0,
+                  2845.0
+                ],
+                "Texture": "Naevi\\e3508c18-9f10-4de9-8702-f88649240af5"
+              },
+              {
+                "$id": "118",
+                "Position": [
+                  3539.0,
+                  2695.0
+                ],
+                "Texture": "Naevi\\bee53f82-1fc1-4624-93f9-21af5922f8cc"
+              },
+              {
+                "$id": "119",
+                "Position": [
+                  3732.0,
+                  2893.0
+                ],
+                "Texture": "Naevi\\82af592c-d185-4b82-9ade-cb6d1f434165"
+              },
+              {
+                "$id": "120",
+                "Position": [
+                  3317.0,
+                  3037.0
+                ],
+                "Texture": "Naevi\\2d2ac456-43fa-449c-afbb-e52f202c290f"
+              }
+            ],
+            "TextureCoord": [
+              0.5,
+              0.5
+            ],
+            "Shape": "Naevi\\aa547240-ab67-4eba-9ac8-ab3632731ced",
+            "Size": 1.0
+          },
+          {
+            "$id": "121",
+            "Spread": 1.0,
+            "Elevation": 1.0,
+            "HighRes": [
+              {
+                "$id": "122",
+                "Position": [
+                  86.0,
+                  460.0
+                ],
+                "Texture": "Naevi\\64b5eb86-d890-40c6-91ee-7b9f6adf5fdd"
+              },
+              {
+                "$id": "123",
+                "Position": [
+                  221.0,
+                  435.0
+                ],
+                "Texture": "Naevi\\18e137c8-6540-4aa7-bb36-798ae08aac61"
+              },
+              {
+                "$id": "124",
+                "Position": [
+                  445.0,
+                  1503.0
+                ],
+                "Texture": "Naevi\\adc1d2be-c74c-43ab-baf0-433ae3e7069a"
+              },
+              {
+                "$id": "125",
+                "Position": [
+                  559.0,
+                  1665.0
+                ],
+                "Texture": "Naevi\\b73ac269-ceab-4d62-a079-f398015a2dc6"
+              },
+              {
+                "$id": "126",
+                "Position": [
+                  376.0,
+                  1751.0
+                ],
+                "Texture": "Naevi\\edb75e63-b732-4287-8907-3a491cdf3491"
+              },
+              {
+                "$id": "127",
+                "Position": [
+                  418.0,
+                  2061.0
+                ],
+                "Texture": "Naevi\\706c7cb1-cf58-455a-aa40-9be6202fde16"
+              },
+              {
+                "$id": "128",
+                "Position": [
+                  493.0,
+                  2601.0
+                ],
+                "Texture": "Naevi\\bc53cd0a-9da1-4e5f-bb3f-ba1190a1f8a9"
+              },
+              {
+                "$id": "129",
+                "Position": [
+                  325.0,
+                  2374.0
+                ],
+                "Texture": "Naevi\\6cb28a67-7653-43db-9d55-60159127206b"
+              },
+              {
+                "$id": "130",
+                "Position": [
+                  339.0,
+                  2700.0
+                ],
+                "Texture": "Naevi\\a446b997-454b-4c42-89ba-db0ed7d4655a"
+              },
+              {
+                "$id": "131",
+                "Position": [
+                  297.0,
+                  2955.0
+                ],
+                "Texture": "Naevi\\0c56c23e-9985-4a8b-84c4-cc0ff9c88afa"
+              },
+              {
+                "$id": "132",
+                "Position": [
+                  156.0,
+                  3120.0
+                ],
+                "Texture": "Naevi\\7ab255c9-c932-4e21-b6d9-1950cd53958c"
+              },
+              {
+                "$id": "133",
+                "Position": [
+                  136.0,
+                  3254.0
+                ],
+                "Texture": "Naevi\\eeb2c629-5fcc-4ffc-b898-55c7985a96f7"
+              },
+              {
+                "$id": "134",
+                "Position": [
+                  170.0,
+                  3505.0
+                ],
+                "Texture": "Naevi\\25918339-8f2c-4503-a4a6-e6c793a8042e"
+              },
+              {
+                "$id": "135",
+                "Position": [
+                  342.0,
+                  3536.0
+                ],
+                "Texture": "Naevi\\893d73b6-49ce-4c98-83f4-41bfc99606e8"
+              },
+              {
+                "$id": "136",
+                "Position": [
+                  579.0,
+                  3416.0
+                ],
+                "Texture": "Naevi\\462a32b6-801c-45a9-a878-1f41285ac433"
+              },
+              {
+                "$id": "137",
+                "Position": [
+                  583.0,
+                  2869.0
+                ],
+                "Texture": "Naevi\\f32d8c42-e58e-43d4-953d-a049e5efb2c2"
+              },
+              {
+                "$id": "138",
+                "Position": [
+                  248.0,
+                  724.0
+                ],
+                "Texture": "Naevi\\0e609457-babf-494b-8bcd-a1ef67c07d5a"
+              },
+              {
+                "$id": "139",
+                "Position": [
+                  463.0,
+                  708.0
+                ],
+                "Texture": "Naevi\\b9d14e4d-8ebc-4abc-ba1f-3fedce315acc"
+              },
+              {
+                "$id": "140",
+                "Position": [
+                  488.0,
+                  911.0
+                ],
+                "Texture": "Naevi\\de7b3d77-d277-4580-94cf-e814b9d966e5"
+              },
+              {
+                "$id": "141",
+                "Position": [
+                  163.0,
+                  862.0
+                ],
+                "Texture": "Naevi\\e3395c93-c4d9-48de-8078-d8f948da609d"
+              },
+              {
+                "$id": "142",
+                "Position": [
+                  158.0,
+                  1013.0
+                ],
+                "Texture": "Naevi\\c45987c3-0346-48df-b535-70b34ecab233"
+              },
+              {
+                "$id": "143",
+                "Position": [
+                  262.0,
+                  1112.0
+                ],
+                "Texture": "Naevi\\a629b594-9b41-44cb-bbf9-1f5cd1175c03"
+              },
+              {
+                "$id": "144",
+                "Position": [
+                  394.0,
+                  1145.0
+                ],
+                "Texture": "Naevi\\7135f7ee-504c-4f8d-8751-8f12639fef6c"
+              },
+              {
+                "$id": "145",
+                "Position": [
+                  521.0,
+                  1264.0
+                ],
+                "Texture": "Naevi\\9d565c40-1bfb-4d95-b9da-54734761c3fe"
+              },
+              {
+                "$id": "146",
+                "Position": [
+                  369.0,
+                  471.0
+                ],
+                "Texture": "Naevi\\4abcf523-8d78-4087-8e2f-c66a4a2009e3"
+              },
+              {
+                "$id": "147",
+                "Position": [
+                  624.0,
+                  1407.0
+                ],
+                "Texture": "Naevi\\0b7779f0-ab35-4ecd-ab6c-f5de3818e4db"
+              },
+              {
+                "$id": "148",
+                "Position": [
+                  717.0,
+                  1569.0
+                ],
+                "Texture": "Naevi\\1771576e-6801-401c-a13d-48a36d7d6889"
+              },
+              {
+                "$id": "149",
+                "Position": [
+                  879.0,
+                  1689.0
+                ],
+                "Texture": "Naevi\\95451810-e2bb-43e3-a724-947cf611dde8"
+              },
+              {
+                "$id": "150",
+                "Position": [
+                  1064.0,
+                  1665.0
+                ],
+                "Texture": "Naevi\\61582fb3-9193-4c75-85fa-cf897dc9eb4c"
+              },
+              {
+                "$id": "151",
+                "Position": [
+                  1137.0,
+                  1352.0
+                ],
+                "Texture": "Naevi\\4a6528a7-14f2-4afc-bce6-ffdd3015c1a3"
+              },
+              {
+                "$id": "152",
+                "Position": [
+                  1274.0,
+                  1035.0
+                ],
+                "Texture": "Naevi\\246d0fa4-ae63-41dd-8fb4-8934c7502624"
+              },
+              {
+                "$id": "153",
+                "Position": [
+                  1174.0,
+                  1871.0
+                ],
+                "Texture": "Naevi\\334f0627-0ef1-4382-9e95-f631f32bd286"
+              },
+              {
+                "$id": "154",
+                "Position": [
+                  972.0,
+                  1813.0
+                ],
+                "Texture": "Naevi\\6fd0947d-85ec-482f-affb-2d7b15764fbc"
+              },
+              {
+                "$id": "155",
+                "Position": [
+                  727.0,
+                  1947.0
+                ],
+                "Texture": "Naevi\\81cc54b1-3a56-4f96-9dce-d3c15adb510e"
+              },
+              {
+                "$id": "156",
+                "Position": [
+                  817.0,
+                  2167.0
+                ],
+                "Texture": "Naevi\\fa69b2fa-7792-4473-a044-e7977b6bb72f"
+              },
+              {
+                "$id": "157",
+                "Position": [
+                  1054.0,
+                  2184.0
+                ],
+                "Texture": "Naevi\\b974da63-ef82-44fe-92bf-aa9a172fa40b"
+              },
+              {
+                "$id": "158",
+                "Position": [
+                  1340.0,
+                  2226.0
+                ],
+                "Texture": "Naevi\\0387d0eb-3818-4fcb-8abb-1e808e726f9f"
+              },
+              {
+                "$id": "159",
+                "Position": [
+                  1161.0,
+                  2546.0
+                ],
+                "Texture": "Naevi\\08e47efd-2f87-456b-9c80-96ccadab6332"
+              },
+              {
+                "$id": "160",
+                "Position": [
+                  892.0,
+                  2556.0
+                ],
+                "Texture": "Naevi\\ffa3b83a-6186-47fb-a725-e2cd5f296243"
+              },
+              {
+                "$id": "161",
+                "Position": [
+                  658.0,
+                  2525.0
+                ],
+                "Texture": "Naevi\\7065b8d5-62ac-4d33-82de-10c6e21b0005"
+              },
+              {
+                "$id": "162",
+                "Position": [
+                  710.0,
+                  2718.0
+                ],
+                "Texture": "Naevi\\fdf08a1f-62bd-4e8e-83e5-c03e9ca038a7"
+              },
+              {
+                "$id": "163",
+                "Position": [
+                  1030.0,
+                  2690.0
+                ],
+                "Texture": "Naevi\\f87d54b6-1e4c-4487-a17a-b9830841a6e4"
+              },
+              {
+                "$id": "164",
+                "Position": [
+                  1243.0,
+                  2735.0
+                ],
+                "Texture": "Naevi\\8babcb42-d0f4-4719-921c-cc8414a8dbee"
+              },
+              {
+                "$id": "165",
+                "Position": [
+                  916.0,
+                  3003.0
+                ],
+                "Texture": "Naevi\\71fa3012-6782-4772-adbd-1cb0a3336bf8"
+              },
+              {
+                "$id": "166",
+                "Position": [
+                  765.0,
+                  3044.0
+                ],
+                "Texture": "Naevi\\2d5d2272-ece7-457a-b0c8-b2903388cd42"
+              },
+              {
+                "$id": "167",
+                "Position": [
+                  752.0,
+                  972.0
+                ],
+                "Texture": "Naevi\\2df8f8c9-5946-4846-af39-2c9d3be1187e"
+              },
+              {
+                "$id": "168",
+                "Position": [
+                  958.0,
+                  958.0
+                ],
+                "Texture": "Naevi\\909c4424-7bb5-43a6-8c2a-9d185feacabb"
+              },
+              {
+                "$id": "169",
+                "Position": [
+                  1063.0,
+                  1145.0
+                ],
+                "Texture": "Naevi\\b105f3e6-9c0a-49d3-a461-130a6c5f8f17"
+              },
+              {
+                "$id": "170",
+                "Position": [
+                  804.0,
+                  1253.0
+                ],
+                "Texture": "Naevi\\f473e5d6-abc5-4e14-bf4f-5d42c8ba1fa5"
+              },
+              {
+                "$id": "171",
+                "Position": [
+                  1457.0,
+                  1022.0
+                ],
+                "Texture": "Naevi\\b45510f1-c5cc-43fc-93e4-8da2a3e021df"
+              },
+              {
+                "$id": "172",
+                "Position": [
+                  1432.0,
+                  863.0
+                ],
+                "Texture": "Naevi\\99962a9f-91cb-419e-9aa4-a2bb89864d14"
+              },
+              {
+                "$id": "173",
+                "Position": [
+                  1371.0,
+                  719.0
+                ],
+                "Texture": "Naevi\\d1307d63-aff6-4e46-aa6b-17044ff54a04"
+              },
+              {
+                "$id": "174",
+                "Position": [
+                  1439.0,
+                  561.0
+                ],
+                "Texture": "Naevi\\3e62b257-3f0f-49da-abf4-c8e7e5844039"
+              },
+              {
+                "$id": "175",
+                "Position": [
+                  1525.0,
+                  382.0
+                ],
+                "Texture": "Naevi\\d64c2933-6f41-4dfc-9dc7-c8a12694a323"
+              },
+              {
+                "$id": "176",
+                "Position": [
+                  1735.0,
+                  289.0
+                ],
+                "Texture": "Naevi\\b85ed4f0-cfce-4000-ace3-236df15383ee"
+              },
+              {
+                "$id": "177",
+                "Position": [
+                  1501.0,
+                  241.0
+                ],
+                "Texture": "Naevi\\cb44d7ce-8fe3-4b82-8384-6e21c734743b"
+              },
+              {
+                "$id": "178",
+                "Position": [
+                  1691.0,
+                  495.0
+                ],
+                "Texture": "Naevi\\07002ada-08a5-4a17-a87a-d8e63fc59857"
+              },
+              {
+                "$id": "179",
+                "Position": [
+                  1605.0,
+                  688.0
+                ],
+                "Texture": "Naevi\\5273c5f6-e339-477b-93c5-79d27ed3a0f1"
+              },
+              {
+                "$id": "180",
+                "Position": [
+                  1732.0,
+                  870.0
+                ],
+                "Texture": "Naevi\\26af08f5-e708-41d5-856c-17764bb01585"
+              },
+              {
+                "$id": "181",
+                "Position": [
+                  1852.0,
+                  698.0
+                ],
+                "Texture": "Naevi\\76f26f65-ad64-435d-84c7-c0cc8e5bd999"
+              },
+              {
+                "$id": "182",
+                "Position": [
+                  1856.0,
+                  1070.0
+                ],
+                "Texture": "Naevi\\38398980-c2e2-470c-b6ff-50d9d9487810"
+              },
+              {
+                "$id": "183",
+                "Position": [
+                  1969.0,
+                  1190.0
+                ],
+                "Texture": "Naevi\\52000988-21f3-47fe-9c5c-5c3abc96c6df"
+              },
+              {
+                "$id": "184",
+                "Position": [
+                  2072.0,
+                  977.0
+                ],
+                "Texture": "Naevi\\1a3056f2-a26d-4347-afd5-6c5e238ae398"
+              },
+              {
+                "$id": "185",
+                "Position": [
+                  1931.0,
+                  863.0
+                ],
+                "Texture": "Naevi\\14b0c64c-05ed-435e-9a75-0232d4b339f8"
+              },
+              {
+                "$id": "186",
+                "Position": [
+                  2048.0,
+                  726.0
+                ],
+                "Texture": "Naevi\\6dc1424d-dfee-4f0b-9056-3b676bc3e088"
+              },
+              {
+                "$id": "187",
+                "Position": [
+                  1955.0,
+                  592.0
+                ],
+                "Texture": "Naevi\\eb2d969c-5bb0-477b-80d8-25074d1b39ae"
+              },
+              {
+                "$id": "188",
+                "Position": [
+                  1863.0,
+                  543.0
+                ],
+                "Texture": "Naevi\\34a4ed1e-1769-4dfc-8405-91e32044c452"
+              },
+              {
+                "$id": "189",
+                "Position": [
+                  1887.0,
+                  392.0
+                ],
+                "Texture": "Naevi\\0301c04f-398e-4852-a67c-80df32332d83"
+              },
+              {
+                "$id": "190",
+                "Position": [
+                  2083.0,
+                  440.0
+                ],
+                "Texture": "Naevi\\4f85e379-ce7d-4e71-b156-96326b5735b8"
+              },
+              {
+                "$id": "191",
+                "Position": [
+                  2114.0,
+                  330.0
+                ],
+                "Texture": "Naevi\\0c6661eb-882e-420c-a6f7-7e08fe83f88f"
+              },
+              {
+                "$id": "192",
+                "Position": [
+                  2279.0,
+                  371.0
+                ],
+                "Texture": "Naevi\\1843e8a9-da92-4da1-a5ba-f95a266bacdd"
+              },
+              {
+                "$id": "193",
+                "Position": [
+                  2430.0,
+                  275.0
+                ],
+                "Texture": "Naevi\\3ed1e0ce-aee3-4ad5-9bc7-bb5a9e4bc246"
+              },
+              {
+                "$id": "194",
+                "Position": [
+                  2588.0,
+                  364.0
+                ],
+                "Texture": "Naevi\\f32427ba-fb14-4aef-9d36-30953b6d49b0"
+              },
+              {
+                "$id": "195",
+                "Position": [
+                  2461.0,
+                  485.0
+                ],
+                "Texture": "Naevi\\ae62e80e-5f08-4658-b1c0-32191b4191aa"
+              },
+              {
+                "$id": "196",
+                "Position": [
+                  2647.0,
+                  561.0
+                ],
+                "Texture": "Naevi\\f3d81c14-c5ea-40f3-b178-f37abd477b32"
+              },
+              {
+                "$id": "197",
+                "Position": [
+                  2530.0,
+                  657.0
+                ],
+                "Texture": "Naevi\\3955b2d2-1115-410b-a2db-0c4c0556b0a0"
+              },
+              {
+                "$id": "198",
+                "Position": [
+                  2348.0,
+                  619.0
+                ],
+                "Texture": "Naevi\\4a2c4cb3-47da-4b27-93c4-9698460c4113"
+              },
+              {
+                "$id": "199",
+                "Position": [
+                  2265.0,
+                  509.0
+                ],
+                "Texture": "Naevi\\4f73ad7e-5e79-4cc2-95b5-a2551f1b80b0"
+              },
+              {
+                "$id": "200",
+                "Position": [
+                  2213.0,
+                  633.0
+                ],
+                "Texture": "Naevi\\5a6713a0-f312-470a-8a64-9cacad4fea9a"
+              },
+              {
+                "$id": "201",
+                "Position": [
+                  2282.0,
+                  819.0
+                ],
+                "Texture": "Naevi\\6034f01d-73ef-4ed6-b16c-0bb4ccd560d3"
+              },
+              {
+                "$id": "202",
+                "Position": [
+                  2465.0,
+                  860.0
+                ],
+                "Texture": "Naevi\\12d5c090-c4f7-46bd-b48e-d12302e2039c"
+              },
+              {
+                "$id": "203",
+                "Position": [
+                  2640.0,
+                  757.0
+                ],
+                "Texture": "Naevi\\72053735-c8d8-45ab-919f-85b212fd8735"
+              },
+              {
+                "$id": "204",
+                "Position": [
+                  2664.0,
+                  918.0
+                ],
+                "Texture": "Naevi\\de74e6f5-f71c-4081-a48d-f11ef22f3214"
+              },
+              {
+                "$id": "205",
+                "Position": [
+                  2637.0,
+                  1132.0
+                ],
+                "Texture": "Naevi\\a2feaa84-19c8-4e26-80a6-e9067b7a0cac"
+              },
+              {
+                "$id": "206",
+                "Position": [
+                  2468.0,
+                  1283.0
+                ],
+                "Texture": "Naevi\\51525045-ef6b-4e72-b965-080df220c388"
+              },
+              {
+                "$id": "207",
+                "Position": [
+                  2303.0,
+                  1145.0
+                ],
+                "Texture": "Naevi\\d47c29cb-8863-41f0-900c-617d5b755cff"
+              },
+              {
+                "$id": "208",
+                "Position": [
+                  2231.0,
+                  1011.0
+                ],
+                "Texture": "Naevi\\09ff9178-5a50-4e47-a7d4-7cb1ae7d33f1"
+              },
+              {
+                "$id": "209",
+                "Position": [
+                  2145.0,
+                  1163.0
+                ],
+                "Texture": "Naevi\\57c4ce3c-f3bc-4ef1-9c99-25c7c08a2451"
+              },
+              {
+                "$id": "210",
+                "Position": [
+                  2059.0,
+                  1290.0
+                ],
+                "Texture": "Naevi\\a22c1b9c-7599-45f1-96a2-2718c31c669d"
+              },
+              {
+                "$id": "211",
+                "Position": [
+                  2282.0,
+                  1314.0
+                ],
+                "Texture": "Naevi\\9e83ae9f-38b5-4b57-bf64-dd7184f71fb1"
+              },
+              {
+                "$id": "212",
+                "Position": [
+                  1625.0,
+                  1228.0
+                ],
+                "Texture": "Naevi\\33f1fda8-3ea3-47f2-9111-fc1353571efb"
+              },
+              {
+                "$id": "213",
+                "Position": [
+                  1622.0,
+                  853.0
+                ],
+                "Texture": "Naevi\\d1d0e824-9c18-4668-98c9-4cbd2d7c16a8"
+              },
+              {
+                "$id": "214",
+                "Position": [
+                  1491.0,
+                  1262.0
+                ],
+                "Texture": "Naevi\\5d5d901a-9ecd-4a8c-be20-d9177b56f7c4"
+              },
+              {
+                "$id": "215",
+                "Position": [
+                  2217.0,
+                  1424.0
+                ],
+                "Texture": "Naevi\\08eced86-5b36-4d21-9335-e1c780e6fb4d"
+              },
+              {
+                "$id": "216",
+                "Position": [
+                  1412.0,
+                  1407.0
+                ],
+                "Texture": "Naevi\\8ae8e167-1c6c-4d7f-8b12-afc0dea752f1"
+              },
+              {
+                "$id": "217",
+                "Position": [
+                  1601.0,
+                  1548.0
+                ],
+                "Texture": "Naevi\\671f7b69-f1dd-4fe7-85d8-dd55508827e2"
+              },
+              {
+                "$id": "218",
+                "Position": [
+                  1752.0,
+                  1348.0
+                ],
+                "Texture": "Naevi\\2e7964b4-7b99-4c91-b4f5-6e23c1a6ae9b"
+              },
+              {
+                "$id": "219",
+                "Position": [
+                  1605.0,
+                  1428.0
+                ],
+                "Texture": "Naevi\\5e4d70fa-84f2-4862-8c40-bcd7c087a0aa"
+              },
+              {
+                "$id": "220",
+                "Position": [
+                  1443.0,
+                  1582.0
+                ],
+                "Texture": "Naevi\\292083ea-770f-4890-852d-923b6dd26b5c"
+              },
+              {
+                "$id": "221",
+                "Position": [
+                  1484.0,
+                  1785.0
+                ],
+                "Texture": "Naevi\\b304646d-f9ed-4938-88a0-82757fca82f7"
+              },
+              {
+                "$id": "222",
+                "Position": [
+                  1470.0,
+                  2054.0
+                ],
+                "Texture": "Naevi\\582cca95-9ea5-4d4f-926f-8af140786e8f"
+              },
+              {
+                "$id": "223",
+                "Position": [
+                  1567.0,
+                  2212.0
+                ],
+                "Texture": "Naevi\\da186732-9a87-4fb7-af8b-aaffc44c67e5"
+              },
+              {
+                "$id": "224",
+                "Position": [
+                  1721.0,
+                  2005.0
+                ],
+                "Texture": "Naevi\\c80a7a5e-703d-410f-aa3f-b6fe5ea3fcc7"
+              },
+              {
+                "$id": "225",
+                "Position": [
+                  1580.0,
+                  1926.0
+                ],
+                "Texture": "Naevi\\151abdb9-1f41-45b4-bd38-7339b1b38d1c"
+              },
+              {
+                "$id": "226",
+                "Position": [
+                  1708.0,
+                  1754.0
+                ],
+                "Texture": "Naevi\\9e803661-ddff-4acf-805b-0bb341fb34bb"
+              },
+              {
+                "$id": "227",
+                "Position": [
+                  1869.0,
+                  1923.0
+                ],
+                "Texture": "Naevi\\adc2ba70-3eb3-49bc-ba4a-26705ef827ec"
+              },
+              {
+                "$id": "228",
+                "Position": [
+                  1907.0,
+                  1699.0
+                ],
+                "Texture": "Naevi\\afd0c46e-18db-4afe-bfde-7cba8ee2cb5b"
+              },
+              {
+                "$id": "229",
+                "Position": [
+                  1777.0,
+                  1562.0
+                ],
+                "Texture": "Naevi\\c61c2069-1ede-4e41-83b2-947acadcfdec"
+              },
+              {
+                "$id": "230",
+                "Position": [
+                  1955.0,
+                  1458.0
+                ],
+                "Texture": "Naevi\\ecbc065f-4859-40c0-8bc0-4b15416ad989"
+              },
+              {
+                "$id": "231",
+                "Position": [
+                  2100.0,
+                  1644.0
+                ],
+                "Texture": "Naevi\\9a57d9eb-5ce5-4508-8141-fafeb0de3c2e"
+              },
+              {
+                "$id": "232",
+                "Position": [
+                  2286.0,
+                  1593.0
+                ],
+                "Texture": "Naevi\\f1b7eaff-f45a-450b-ac7f-263f03dab981"
+              },
+              {
+                "$id": "233",
+                "Position": [
+                  2451.0,
+                  1455.0
+                ],
+                "Texture": "Naevi\\febed803-8226-464d-af60-b640bf222826"
+              },
+              {
+                "$id": "234",
+                "Position": [
+                  2478.0,
+                  1686.0
+                ],
+                "Texture": "Naevi\\9f343970-5cf5-428c-a323-6e7f513f7f74"
+              },
+              {
+                "$id": "235",
+                "Position": [
+                  2275.0,
+                  1803.0
+                ],
+                "Texture": "Naevi\\6f1b1225-ff83-4e51-8148-0daa82bcfc8b"
+              },
+              {
+                "$id": "236",
+                "Position": [
+                  2176.0,
+                  1937.0
+                ],
+                "Texture": "Naevi\\b10ae480-9a4f-4603-8b5b-c5f31638a9c2"
+              },
+              {
+                "$id": "237",
+                "Position": [
+                  2059.0,
+                  1840.0
+                ],
+                "Texture": "Naevi\\1634d1b4-631e-4b45-8b75-b41064d6ab0d"
+              },
+              {
+                "$id": "238",
+                "Position": [
+                  1973.0,
+                  2033.0
+                ],
+                "Texture": "Naevi\\651094aa-5ca3-4d20-9896-727dd9112e61"
+              },
+              {
+                "$id": "239",
+                "Position": [
+                  1849.0,
+                  2226.0
+                ],
+                "Texture": "Naevi\\3f815e29-26e0-44c7-b229-09cffc31bb1c"
+              },
+              {
+                "$id": "240",
+                "Position": [
+                  2189.0,
+                  2319.0
+                ],
+                "Texture": "Naevi\\818a9c91-17ac-4b4c-84f2-d38eccce26b9"
+              },
+              {
+                "$id": "241",
+                "Position": [
+                  2255.0,
+                  2174.0
+                ],
+                "Texture": "Naevi\\b1c96185-08fd-419a-836e-81260efd6e21"
+              },
+              {
+                "$id": "242",
+                "Position": [
+                  2334.0,
+                  2033.0
+                ],
+                "Texture": "Naevi\\5da9487c-220f-41c2-ba73-140e4fa1ad76"
+              },
+              {
+                "$id": "243",
+                "Position": [
+                  2547.0,
+                  2078.0
+                ],
+                "Texture": "Naevi\\255dffee-62ac-4101-9fe9-9aa5a08fd6b5"
+              },
+              {
+                "$id": "244",
+                "Position": [
+                  2492.0,
+                  1913.0
+                ],
+                "Texture": "Naevi\\b96bdb8b-6da2-46ef-abe4-573270a5aebf"
+              },
+              {
+                "$id": "245",
+                "Position": [
+                  2664.0,
+                  1765.0
+                ],
+                "Texture": "Naevi\\df0cc014-1dbd-404a-9830-0fc72256e33e"
+              },
+              {
+                "$id": "246",
+                "Position": [
+                  2702.0,
+                  1520.0
+                ],
+                "Texture": "Naevi\\4239aa4c-4298-4dc3-b9d0-3712dddbe182"
+              },
+              {
+                "$id": "247",
+                "Position": [
+                  2671.0,
+                  1324.0
+                ],
+                "Texture": "Naevi\\373cddaf-f9ad-4f22-adb5-b1ccd797b6df"
+              },
+              {
+                "$id": "248",
+                "Position": [
+                  2678.0,
+                  2222.0
+                ],
+                "Texture": "Naevi\\a27780b4-1257-4284-8d93-430125db19cf"
+              },
+              {
+                "$id": "249",
+                "Position": [
+                  2478.0,
+                  2332.0
+                ],
+                "Texture": "Naevi\\714ec635-795c-457b-acfc-0343aa126e66"
+              },
+              {
+                "$id": "250",
+                "Position": [
+                  2654.0,
+                  2453.0
+                ],
+                "Texture": "Naevi\\9a311cc5-8405-4ee1-be63-26c9cae35800"
+              },
+              {
+                "$id": "251",
+                "Position": [
+                  2031.0,
+                  2793.0
+                ],
+                "Texture": "Naevi\\926cba68-9ec1-4aeb-a1e2-acd3bf30f79e"
+              },
+              {
+                "$id": "252",
+                "Position": [
+                  2031.0,
+                  2587.0
+                ],
+                "Texture": "Naevi\\3507b8f1-3352-4d35-8840-8a6278d69fc3"
+              },
+              {
+                "$id": "253",
+                "Position": [
+                  1869.0,
+                  2522.0
+                ],
+                "Texture": "Naevi\\de62d681-eed3-4d71-92d4-0c474873cc4d"
+              },
+              {
+                "$id": "254",
+                "Position": [
+                  1725.0,
+                  2384.0
+                ],
+                "Texture": "Naevi\\89a7b9b3-f17d-42af-81b9-e44ab7e83d01"
+              },
+              {
+                "$id": "255",
+                "Position": [
+                  1646.0,
+                  2690.0
+                ],
+                "Texture": "Naevi\\71c38905-6d1e-4568-ab0b-1aa4b371cc8c"
+              },
+              {
+                "$id": "256",
+                "Position": [
+                  1859.0,
+                  2697.0
+                ],
+                "Texture": "Naevi\\0c0b7e74-e8c5-418d-9f18-55e1061f6bd8"
+              },
+              {
+                "$id": "257",
+                "Position": [
+                  2275.0,
+                  2539.0
+                ],
+                "Texture": "Naevi\\51945353-e79f-454f-bcb0-420da02b38e4"
+              },
+              {
+                "$id": "258",
+                "Position": [
+                  2210.0,
+                  2755.0
+                ],
+                "Texture": "Naevi\\ce98ebc3-1586-4c75-9013-dae7bdeb1947"
+              },
+              {
+                "$id": "259",
+                "Position": [
+                  2502.0,
+                  2663.0
+                ],
+                "Texture": "Naevi\\4f5c6d5f-57c8-4e2f-bb5c-ae683418d00e"
+              },
+              {
+                "$id": "260",
+                "Position": [
+                  2458.0,
+                  2491.0
+                ],
+                "Texture": "Naevi\\2ed699d6-2e6d-474d-bf83-44d46b8e5fad"
+              },
+              {
+                "$id": "261",
+                "Position": [
+                  1474.0,
+                  2577.0
+                ],
+                "Texture": "Naevi\\a3840ef9-a7de-4c83-9092-8a4f4a1f923a"
+              },
+              {
+                "$id": "262",
+                "Position": [
+                  2582.0,
+                  3010.0
+                ],
+                "Texture": "Naevi\\5af2edc9-aef6-4992-958e-ef52c0072556"
+              },
+              {
+                "$id": "263",
+                "Position": [
+                  2416.0,
+                  3137.0
+                ],
+                "Texture": "Naevi\\d85e83d0-8d92-4a21-8e19-9856c0653161"
+              },
+              {
+                "$id": "264",
+                "Position": [
+                  2200.0,
+                  3333.0
+                ],
+                "Texture": "Naevi\\ac495f66-9a06-4cc9-a4bf-a9dadb0a7f79"
+              },
+              {
+                "$id": "265",
+                "Position": [
+                  2052.0,
+                  3271.0
+                ],
+                "Texture": "Naevi\\3a60b36c-5216-4c2d-a6f3-f9343ca84061"
+              },
+              {
+                "$id": "266",
+                "Position": [
+                  2124.0,
+                  3007.0
+                ],
+                "Texture": "Naevi\\c0616cfb-7ea8-4a27-a412-bcf490bc74e0"
+              },
+              {
+                "$id": "267",
+                "Position": [
+                  2344.0,
+                  2917.0
+                ],
+                "Texture": "Naevi\\c295061e-9c0e-4cf5-b5ce-da6a461ae779"
+              },
+              {
+                "$id": "268",
+                "Position": [
+                  1821.0,
+                  3268.0
+                ],
+                "Texture": "Naevi\\f4c6ad65-f21e-4135-a6c4-b986f0ee6365"
+              },
+              {
+                "$id": "269",
+                "Position": [
+                  1911.0,
+                  3027.0
+                ],
+                "Texture": "Naevi\\8a84f229-63d7-4ecc-b6ef-d70cdac7d5fc"
+              },
+              {
+                "$id": "270",
+                "Position": [
+                  1811.0,
+                  2869.0
+                ],
+                "Texture": "Naevi\\d110fdb8-ceef-4385-8bbe-a84ee3642e0f"
+              },
+              {
+                "$id": "271",
+                "Position": [
+                  2681.0,
+                  2817.0
+                ],
+                "Texture": "Naevi\\79da70d6-0c41-44c7-bc24-58500533ce06"
+              },
+              {
+                "$id": "272",
+                "Position": [
+                  1580.0,
+                  2927.0
+                ],
+                "Texture": "Naevi\\0f293755-12e8-4085-813f-3c8ed1efd1fc"
+              },
+              {
+                "$id": "273",
+                "Position": [
+                  1708.0,
+                  3079.0
+                ],
+                "Texture": "Naevi\\e9c636a0-c3d4-49f0-ab63-201235407e64"
+              },
+              {
+                "$id": "274",
+                "Position": [
+                  1408.0,
+                  3075.0
+                ],
+                "Texture": "Naevi\\99d1bdfa-c381-4f8f-bcd0-e5f537608dd1"
+              },
+              {
+                "$id": "275",
+                "Position": [
+                  1439.0,
+                  2841.0
+                ],
+                "Texture": "Naevi\\5b4139cb-5807-49b7-aaa9-dcec864dfee1"
+              },
+              {
+                "$id": "276",
+                "Position": [
+                  2836.0,
+                  1575.0
+                ],
+                "Texture": "Naevi\\69c642dc-e4f7-47e4-ab3c-0b0396b854bc"
+              },
+              {
+                "$id": "277",
+                "Position": [
+                  2850.0,
+                  1204.0
+                ],
+                "Texture": "Naevi\\2d343780-c1a2-443e-a899-0e2c5b89b543"
+              },
+              {
+                "$id": "278",
+                "Position": [
+                  3005.0,
+                  1194.0
+                ],
+                "Texture": "Naevi\\8e6f1c86-7115-46ae-a0ee-135729f714ba"
+              },
+              {
+                "$id": "279",
+                "Position": [
+                  2833.0,
+                  987.0
+                ],
+                "Texture": "Naevi\\ff9a4402-e73b-4f1a-bddc-24f06b9d9e5e"
+              },
+              {
+                "$id": "280",
+                "Position": [
+                  3025.0,
+                  898.0
+                ],
+                "Texture": "Naevi\\f14446f0-283f-4da2-94c0-e44ff8a6b8f1"
+              },
+              {
+                "$id": "281",
+                "Position": [
+                  3146.0,
+                  1286.0
+                ],
+                "Texture": "Naevi\\b65baf1f-2a83-4774-9d54-7c7480ad7a6d"
+              },
+              {
+                "$id": "282",
+                "Position": [
+                  3362.0,
+                  925.0
+                ],
+                "Texture": "Naevi\\27bdb3b1-68b2-41d6-895e-a06b21b8143e"
+              },
+              {
+                "$id": "283",
+                "Position": [
+                  3197.0,
+                  870.0
+                ],
+                "Texture": "Naevi\\1e688747-4cd3-48b8-9c61-6abf38404f41"
+              },
+              {
+                "$id": "284",
+                "Position": [
+                  3331.0,
+                  1923.0
+                ],
+                "Texture": "Naevi\\5e2506ca-48ed-45e2-9df4-25c79973f549"
+              },
+              {
+                "$id": "285",
+                "Position": [
+                  3122.0,
+                  1555.0
+                ],
+                "Texture": "Naevi\\8bafe780-04f7-44b3-a9cc-d3c01e0540d6"
+              },
+              {
+                "$id": "286",
+                "Position": [
+                  3187.0,
+                  1916.0
+                ],
+                "Texture": "Naevi\\5f78b76c-fd0c-4247-948d-9ba3c7fa7707"
+              },
+              {
+                "$id": "287",
+                "Position": [
+                  2836.0,
+                  2067.0
+                ],
+                "Texture": "Naevi\\56ebddff-ff27-47e7-96e8-6f4e8bce3e6c"
+              },
+              {
+                "$id": "288",
+                "Position": [
+                  2953.0,
+                  2442.0
+                ],
+                "Texture": "Naevi\\371202ac-2e14-4c7f-ad57-028c04a65ca4"
+              },
+              {
+                "$id": "289",
+                "Position": [
+                  3314.0,
+                  2136.0
+                ],
+                "Texture": "Naevi\\5d27b88a-3549-4294-acea-093ddb5a7022"
+              },
+              {
+                "$id": "290",
+                "Position": [
+                  3122.0,
+                  2484.0
+                ],
+                "Texture": "Naevi\\9f2ff638-0986-4c91-9153-729ace127241"
+              },
+              {
+                "$id": "291",
+                "Position": [
+                  3452.0,
+                  2522.0
+                ],
+                "Texture": "Naevi\\1cad320d-5224-498f-b69c-2e79687d950b"
+              },
+              {
+                "$id": "292",
+                "Position": [
+                  3387.0,
+                  2979.0
+                ],
+                "Texture": "Naevi\\3e961191-e710-400b-8767-4654fe361b28"
+              },
+              {
+                "$id": "293",
+                "Position": [
+                  3101.0,
+                  3013.0
+                ],
+                "Texture": "Naevi\\7f796072-46ed-474d-9d3c-781a8c92e48f"
+              },
+              {
+                "$id": "294",
+                "Position": [
+                  2881.0,
+                  2728.0
+                ],
+                "Texture": "Naevi\\0ea0406b-7589-4933-8f39-4e26dac9e14a"
+              },
+              {
+                "$id": "295",
+                "Position": [
+                  2874.0,
+                  3144.0
+                ],
+                "Texture": "Naevi\\b1ddadcc-321e-4380-bb37-f95f2f51ce5c"
+              },
+              {
+                "$id": "296",
+                "Position": [
+                  3528.0,
+                  846.0
+                ],
+                "Texture": "Naevi\\a8506093-62de-4cc8-a971-785da68d6929"
+              },
+              {
+                "$id": "297",
+                "Position": [
+                  3748.0,
+                  440.0
+                ],
+                "Texture": "Naevi\\eca4e5db-dc9a-45f2-b029-c27447ba6a0a"
+              },
+              {
+                "$id": "298",
+                "Position": [
+                  4009.0,
+                  598.0
+                ],
+                "Texture": "Naevi\\b195904d-e12c-479a-b761-f5553cd2a7e2"
+              },
+              {
+                "$id": "299",
+                "Position": [
+                  3951.0,
+                  850.0
+                ],
+                "Texture": "Naevi\\9f6046dc-78a7-47c5-95df-d9f7085113af"
+              },
+              {
+                "$id": "300",
+                "Position": [
+                  3882.0,
+                  1039.0
+                ],
+                "Texture": "Naevi\\31729969-8b7e-4167-a607-76e45b5d0f7f"
+              },
+              {
+                "$id": "301",
+                "Position": [
+                  3775.0,
+                  1235.0
+                ],
+                "Texture": "Naevi\\75dc15c4-005f-4cd5-bc5d-147987ec3f17"
+              },
+              {
+                "$id": "302",
+                "Position": [
+                  3827.0,
+                  1376.0
+                ],
+                "Texture": "Naevi\\03530028-3976-497b-8c1c-dc48b8af47f8"
+              },
+              {
+                "$id": "303",
+                "Position": [
+                  3651.0,
+                  1761.0
+                ],
+                "Texture": "Naevi\\60b62371-32ed-476b-bbce-a4e6b1ed49cb"
+              },
+              {
+                "$id": "304",
+                "Position": [
+                  3590.0,
+                  1028.0
+                ],
+                "Texture": "Naevi\\3e93898b-a938-4337-a61e-0aead953c126"
+              },
+              {
+                "$id": "305",
+                "Position": [
+                  3517.0,
+                  1651.0
+                ],
+                "Texture": "Naevi\\33897bc1-c575-4a88-9571-f707115682c0"
+              },
+              {
+                "$id": "306",
+                "Position": [
+                  3727.0,
+                  1961.0
+                ],
+                "Texture": "Naevi\\4c637589-7371-4e43-82cd-41515fe9dbb0"
+              },
+              {
+                "$id": "307",
+                "Position": [
+                  3531.0,
+                  2105.0
+                ],
+                "Texture": "Naevi\\dd9f4d62-bcef-4c18-80b9-cd8b54a4b5b8"
+              },
+              {
+                "$id": "308",
+                "Position": [
+                  3517.0,
+                  2336.0
+                ],
+                "Texture": "Naevi\\8d01c2ad-1360-4e3e-a6fb-8e71eccc7d9f"
+              },
+              {
+                "$id": "309",
+                "Position": [
+                  3789.0,
+                  2205.0
+                ],
+                "Texture": "Naevi\\92e5db6f-cff4-4c3d-aa62-bdeffcb82321"
+              },
+              {
+                "$id": "310",
+                "Position": [
+                  3700.0,
+                  2841.0
+                ],
+                "Texture": "Naevi\\6de706ff-00e7-4dab-a4c7-e6fe23d31640"
+              },
+              {
+                "$id": "311",
+                "Position": [
+                  3631.0,
+                  3038.0
+                ],
+                "Texture": "Naevi\\c19c95ff-f95f-40a3-8389-88462f722540"
+              },
+              {
+                "$id": "312",
+                "Position": [
+                  3868.0,
+                  2965.0
+                ],
+                "Texture": "Naevi\\bda30bd6-b0d0-4c3e-8fd7-06224f62e56c"
+              },
+              {
+                "$id": "313",
+                "Position": [
+                  3500.0,
+                  3234.0
+                ],
+                "Texture": "Naevi\\9c80271b-0067-4010-a4eb-e4b82fc11367"
+              }
+            ],
+            "TextureCoord": [
+              1.5,
+              0.5
+            ],
+            "Shape": "Naevi\\3ecc2918-52ba-4f43-98f6-35c74bcd89b0",
+            "Size": 1.0
+          },
+          {
+            "$id": "314",
+            "Spread": 1.0,
+            "Elevation": 1.0,
+            "HighRes": [
+              {
+                "$id": "315",
+                "Position": [
+                  215.0,
+                  376.0
+                ],
+                "Texture": "Naevi\\bc282917-4829-4260-a2a9-e1a60cfe8d77"
+              },
+              {
+                "$id": "316",
+                "Position": [
+                  409.0,
+                  247.0
+                ],
+                "Texture": "Naevi\\1a1572b7-dd7d-48ae-b832-92bf2dc8d217"
+              },
+              {
+                "$id": "317",
+                "Position": [
+                  452.0,
+                  430.0
+                ],
+                "Texture": "Naevi\\40fe2a04-53fa-450d-ac75-30ebf1a03172"
+              },
+              {
+                "$id": "318",
+                "Position": [
+                  926.0,
+                  258.0
+                ],
+                "Texture": "Naevi\\36e6710a-feae-445a-bb3b-73db9c7b8e09"
+              },
+              {
+                "$id": "319",
+                "Position": [
+                  720.0,
+                  385.0
+                ],
+                "Texture": "Naevi\\569ed5be-a0a4-4c93-9ce0-b4b96720ad11"
+              },
+              {
+                "$id": "320",
+                "Position": [
+                  1246.0,
+                  310.0
+                ],
+                "Texture": "Naevi\\48019dd5-3d0d-42ba-bd43-f6eab56ae5f6"
+              },
+              {
+                "$id": "321",
+                "Position": [
+                  1477.0,
+                  458.0
+                ],
+                "Texture": "Naevi\\d82aa62d-7b3a-4d8e-badb-475206ffcf7c"
+              },
+              {
+                "$id": "322",
+                "Position": [
+                  1625.0,
+                  674.0
+                ],
+                "Texture": "Naevi\\a3df270d-3f5b-4659-b1cc-c25a4340f969"
+              },
+              {
+                "$id": "323",
+                "Position": [
+                  1776.0,
+                  977.0
+                ],
+                "Texture": "Naevi\\c60d1994-8c8f-4126-ba32-36f2a67e0b47"
+              },
+              {
+                "$id": "324",
+                "Position": [
+                  1501.0,
+                  1125.0
+                ],
+                "Texture": "Naevi\\4bba75e0-59ba-4f41-a4db-19ec284de53a"
+              },
+              {
+                "$id": "325",
+                "Position": [
+                  1370.0,
+                  833.0
+                ],
+                "Texture": "Naevi\\cf616a23-9b1f-4cc2-a22f-eb8a8759555e"
+              },
+              {
+                "$id": "326",
+                "Position": [
+                  1253.0,
+                  630.0
+                ],
+                "Texture": "Naevi\\434454ba-7c8d-4463-91bc-7f66512aa3a4"
+              },
+              {
+                "$id": "327",
+                "Position": [
+                  1105.0,
+                  79.0
+                ],
+                "Texture": "Naevi\\d80ed880-1358-42cd-839c-f881511b2cf6"
+              },
+              {
+                "$id": "328",
+                "Position": [
+                  1036.0,
+                  485.0
+                ],
+                "Texture": "Naevi\\e11c7314-4060-4284-ac29-0d207bcbbab4"
+              },
+              {
+                "$id": "329",
+                "Position": [
+                  1057.0,
+                  846.0
+                ],
+                "Texture": "Naevi\\a33720e5-e0b0-4a3e-8848-3c22cb1c976a"
+              },
+              {
+                "$id": "330",
+                "Position": [
+                  820.0,
+                  640.0
+                ],
+                "Texture": "Naevi\\1a4e5165-30e9-4991-9b04-b46922517e95"
+              },
+              {
+                "$id": "331",
+                "Position": [
+                  713.0,
+                  815.0
+                ],
+                "Texture": "Naevi\\2dfdba6e-6d17-4cfb-8878-fa3675b41ae1"
+              },
+              {
+                "$id": "332",
+                "Position": [
+                  575.0,
+                  664.0
+                ],
+                "Texture": "Naevi\\f33ca629-c934-4037-aa18-5448244b6c57"
+              },
+              {
+                "$id": "333",
+                "Position": [
+                  297.0,
+                  640.0
+                ],
+                "Texture": "Naevi\\b31db48c-90a0-4e0d-8618-58716feed35c"
+              },
+              {
+                "$id": "334",
+                "Position": [
+                  379.0,
+                  874.0
+                ],
+                "Texture": "Naevi\\a293943f-d12e-421f-b829-f1b780ef4af7"
+              },
+              {
+                "$id": "335",
+                "Position": [
+                  507.0,
+                  1104.0
+                ],
+                "Texture": "Naevi\\b0c0a296-6d19-476a-84c9-102c4289a24b"
+              },
+              {
+                "$id": "336",
+                "Position": [
+                  744.0,
+                  1166.0
+                ],
+                "Texture": "Naevi\\96ed869a-346f-43bf-a11d-d22071047f69"
+              },
+              {
+                "$id": "337",
+                "Position": [
+                  933.0,
+                  1060.0
+                ],
+                "Texture": "Naevi\\27be1dc1-e8a6-4796-97c1-520d6d0aa6a8"
+              },
+              {
+                "$id": "338",
+                "Position": [
+                  1184.0,
+                  1208.0
+                ],
+                "Texture": "Naevi\\b55af262-d076-4ff6-8464-ea090b7ba723"
+              },
+              {
+                "$id": "339",
+                "Position": [
+                  923.0,
+                  1400.0
+                ],
+                "Texture": "Naevi\\4208c2a2-81e8-44c1-83d7-86668c48ff59"
+              },
+              {
+                "$id": "340",
+                "Position": [
+                  427.0,
+                  1400.0
+                ],
+                "Texture": "Naevi\\20ba8768-b8b4-4094-bc09-32315031e83a"
+              },
+              {
+                "$id": "341",
+                "Position": [
+                  1404.0,
+                  1493.0
+                ],
+                "Texture": "Naevi\\ca75408e-90c8-4114-832d-e44f4925d577"
+              },
+              {
+                "$id": "342",
+                "Position": [
+                  713.0,
+                  1730.0
+                ],
+                "Texture": "Naevi\\7d0acd5f-5f6f-44b1-8d42-b9ee489c79bb"
+              },
+              {
+                "$id": "343",
+                "Position": [
+                  507.0,
+                  1871.0
+                ],
+                "Texture": "Naevi\\8b759760-2a05-44f4-80b2-ace79899864a"
+              },
+              {
+                "$id": "344",
+                "Position": [
+                  1078.0,
+                  1675.0
+                ],
+                "Texture": "Naevi\\c622ac75-3d17-4802-94ce-900aa2c95c0b"
+              },
+              {
+                "$id": "345",
+                "Position": [
+                  1253.0,
+                  1816.0
+                ],
+                "Texture": "Naevi\\2aab25e3-be09-40e6-9004-3b6b46d13d7b"
+              },
+              {
+                "$id": "346",
+                "Position": [
+                  1490.0,
+                  2013.0
+                ],
+                "Texture": "Naevi\\e05241df-1ce6-44e9-9f03-7309d39ff59f"
+              },
+              {
+                "$id": "347",
+                "Position": [
+                  1477.0,
+                  2305.0
+                ],
+                "Texture": "Naevi\\20bdabb6-37a6-4b38-8b18-9f7bf9aea7be"
+              },
+              {
+                "$id": "348",
+                "Position": [
+                  1191.0,
+                  2105.0
+                ],
+                "Texture": "Naevi\\088d56a4-a6ed-406f-bee4-c812c50a5ab7"
+              },
+              {
+                "$id": "349",
+                "Position": [
+                  978.0,
+                  1961.0
+                ],
+                "Texture": "Naevi\\00d16a63-0881-415e-858b-df4474101c91"
+              },
+              {
+                "$id": "350",
+                "Position": [
+                  761.0,
+                  2140.0
+                ],
+                "Texture": "Naevi\\2434ddb0-b94e-430b-b9b6-9c7e5ccd7e1d"
+              },
+              {
+                "$id": "351",
+                "Position": [
+                  588.0,
+                  2073.0
+                ],
+                "Texture": "Naevi\\4f7545b0-d8a4-4c68-9e60-e03962846b3f"
+              },
+              {
+                "$id": "352",
+                "Position": [
+                  668.0,
+                  2432.0
+                ],
+                "Texture": "Naevi\\d59b203c-1dbb-46df-bd74-41ce7bea2d16"
+              },
+              {
+                "$id": "353",
+                "Position": [
+                  981.0,
+                  2343.0
+                ],
+                "Texture": "Naevi\\94ec7f00-4890-4c8d-8416-f5f85a27fe6b"
+              },
+              {
+                "$id": "354",
+                "Position": [
+                  1239.0,
+                  2463.0
+                ],
+                "Texture": "Naevi\\ab53b1c8-8592-4b6c-a0c1-ff161862b917"
+              },
+              {
+                "$id": "355",
+                "Position": [
+                  1026.0,
+                  2701.0
+                ],
+                "Texture": "Naevi\\3e967aed-4a43-4d77-b060-1ea433e7282e"
+              },
+              {
+                "$id": "356",
+                "Position": [
+                  1446.0,
+                  2869.0
+                ],
+                "Texture": "Naevi\\f9a7d577-caa9-4673-99b3-0bd201d30207"
+              },
+              {
+                "$id": "357",
+                "Position": [
+                  1054.0,
+                  3137.0
+                ],
+                "Texture": "Naevi\\052b03a5-de5d-4801-9a66-221d17b3dcc0"
+              },
+              {
+                "$id": "358",
+                "Position": [
+                  768.0,
+                  2790.0
+                ],
+                "Texture": "Naevi\\dfed8743-28b9-44d1-8057-a6299f2a0d51"
+              },
+              {
+                "$id": "359",
+                "Position": [
+                  596.0,
+                  3062.0
+                ],
+                "Texture": "Naevi\\dc650038-b324-4493-9127-bc45105ea4a3"
+              },
+              {
+                "$id": "360",
+                "Position": [
+                  782.0,
+                  3241.0
+                ],
+                "Texture": "Naevi\\f5c0ecc8-0837-44ec-ba11-47953a02ce41"
+              },
+              {
+                "$id": "361",
+                "Position": [
+                  1563.0,
+                  2714.0
+                ],
+                "Texture": "Naevi\\3f285bea-b334-404a-bce6-afaf80f644fa"
+              },
+              {
+                "$id": "362",
+                "Position": [
+                  2722.0,
+                  124.0
+                ],
+                "Texture": "Naevi\\627543e9-4996-46be-bc70-1c8869ea57f2"
+              },
+              {
+                "$id": "363",
+                "Position": [
+                  3369.0,
+                  72.0
+                ],
+                "Texture": "Naevi\\f6bba89c-f982-4368-9db9-1a120d2dc7d0"
+              },
+              {
+                "$id": "364",
+                "Position": [
+                  3056.0,
+                  234.0
+                ],
+                "Texture": "Naevi\\9b537ff3-da71-4742-835f-3861111a3308"
+              },
+              {
+                "$id": "365",
+                "Position": [
+                  3627.0,
+                  244.0
+                ],
+                "Texture": "Naevi\\851cf19f-0b41-4b13-ad7b-a1f2aa9f13cf"
+              },
+              {
+                "$id": "366",
+                "Position": [
+                  3764.0,
+                  502.0
+                ],
+                "Texture": "Naevi\\0e00349d-4368-4429-9fb4-b74fc83347d1"
+              },
+              {
+                "$id": "367",
+                "Position": [
+                  3630.0,
+                  726.0
+                ],
+                "Texture": "Naevi\\333fa44f-1d0b-4a77-ae38-99ac5f6e6c61"
+              },
+              {
+                "$id": "368",
+                "Position": [
+                  3699.0,
+                  963.0
+                ],
+                "Texture": "Naevi\\6c4b8114-6871-4b83-b6d4-34222e49a4d6"
+              },
+              {
+                "$id": "369",
+                "Position": [
+                  3469.0,
+                  430.0
+                ],
+                "Texture": "Naevi\\b48c6bd0-6ad1-4827-aef3-714918c3e7ca"
+              },
+              {
+                "$id": "370",
+                "Position": [
+                  3221.0,
+                  526.0
+                ],
+                "Texture": "Naevi\\28077bdb-4962-412a-8d6d-9a26d95f4c69"
+              },
+              {
+                "$id": "371",
+                "Position": [
+                  2908.0,
+                  409.0
+                ],
+                "Texture": "Naevi\\fe206499-acf6-44e1-9c27-69a612bbbd61"
+              },
+              {
+                "$id": "372",
+                "Position": [
+                  2615.0,
+                  327.0
+                ],
+                "Texture": "Naevi\\d6fbeb75-daca-4630-b24f-1831fb3383d5"
+              },
+              {
+                "$id": "373",
+                "Position": [
+                  2681.0,
+                  571.0
+                ],
+                "Texture": "Naevi\\cb3bfb97-b7eb-42d3-b2c7-e7d0e32b47df"
+              },
+              {
+                "$id": "374",
+                "Position": [
+                  2426.0,
+                  722.0
+                ],
+                "Texture": "Naevi\\1c3e6b9c-7f94-4561-bb98-6ac119e6aa35"
+              },
+              {
+                "$id": "375",
+                "Position": [
+                  2323.0,
+                  970.0
+                ],
+                "Texture": "Naevi\\4efb7306-53e1-4cfd-92f4-65792daf5575"
+              },
+              {
+                "$id": "376",
+                "Position": [
+                  2701.0,
+                  863.0
+                ],
+                "Texture": "Naevi\\d72dd8a1-7898-49e1-9cae-abd66aedfea6"
+              },
+              {
+                "$id": "377",
+                "Position": [
+                  2990.0,
+                  685.0
+                ],
+                "Texture": "Naevi\\c3dd33e8-5bb0-4799-8a0e-98396ff2e3cc"
+              },
+              {
+                "$id": "378",
+                "Position": [
+                  3094.0,
+                  1056.0
+                ],
+                "Texture": "Naevi\\753f9f45-e24f-429b-8002-b5eed0e025f4"
+              },
+              {
+                "$id": "379",
+                "Position": [
+                  3228.0,
+                  829.0
+                ],
+                "Texture": "Naevi\\44509dbf-9fbc-43a8-939c-3db2c4e82a3d"
+              },
+              {
+                "$id": "380",
+                "Position": [
+                  3451.0,
+                  1084.0
+                ],
+                "Texture": "Naevi\\ada336d8-f892-46db-8796-00fee2829eb1"
+              },
+              {
+                "$id": "381",
+                "Position": [
+                  3599.0,
+                  1366.0
+                ],
+                "Texture": "Naevi\\26259e43-1c33-4d79-8ec8-6dd505c61393"
+              },
+              {
+                "$id": "382",
+                "Position": [
+                  3207.0,
+                  1410.0
+                ],
+                "Texture": "Naevi\\bea4aaa7-0a8f-4377-9f09-8b3d5390b0b7"
+              },
+              {
+                "$id": "383",
+                "Position": [
+                  2904.0,
+                  1380.0
+                ],
+                "Texture": "Naevi\\ad1beb3c-7f8b-481d-a2b9-245d64ede2c3"
+              },
+              {
+                "$id": "384",
+                "Position": [
+                  2767.0,
+                  1166.0
+                ],
+                "Texture": "Naevi\\5f2e3dc1-b8a3-4aff-8d0e-6d6efb08ae75"
+              },
+              {
+                "$id": "385",
+                "Position": [
+                  2461.0,
+                  1283.0
+                ],
+                "Texture": "Naevi\\6c956187-5d5f-4df8-817a-f5b5dc9f0256"
+              },
+              {
+                "$id": "386",
+                "Position": [
+                  2636.0,
+                  1414.0
+                ],
+                "Texture": "Naevi\\2ac6daeb-0548-41c5-b2e0-a35179c00183"
+              },
+              {
+                "$id": "387",
+                "Position": [
+                  2543.0,
+                  1689.0
+                ],
+                "Texture": "Naevi\\dde2be33-9d11-4c86-a919-9264773c8f3d"
+              },
+              {
+                "$id": "388",
+                "Position": [
+                  2884.0,
+                  1672.0
+                ],
+                "Texture": "Naevi\\190e6cb4-b9b8-49f7-be77-e71bced90ed0"
+              },
+              {
+                "$id": "389",
+                "Position": [
+                  3114.0,
+                  1906.0
+                ],
+                "Texture": "Naevi\\57e22a0e-4501-4b1d-ad78-f6a9a5203842"
+              },
+              {
+                "$id": "390",
+                "Position": [
+                  3290.0,
+                  1696.0
+                ],
+                "Texture": "Naevi\\aa1a2c92-78cb-4464-9b92-8b645be11396"
+              },
+              {
+                "$id": "391",
+                "Position": [
+                  3290.0,
+                  1696.0
+                ],
+                "Texture": "Naevi\\fbeacb5a-6319-4a9a-9333-f548ca706dd5"
+              },
+              {
+                "$id": "392",
+                "Position": [
+                  3531.0,
+                  1878.0
+                ],
+                "Texture": "Naevi\\441a485b-87a7-4bf9-85b2-81b513b546e5"
+              },
+              {
+                "$id": "393",
+                "Position": [
+                  3396.0,
+                  2198.0
+                ],
+                "Texture": "Naevi\\a051e3c9-42a0-4640-87bc-7fdafc1a9d94"
+              },
+              {
+                "$id": "394",
+                "Position": [
+                  2822.0,
+                  1964.0
+                ],
+                "Texture": "Naevi\\d5b37e18-7ac9-4ec5-b1f6-0f84f912bb71"
+              },
+              {
+                "$id": "395",
+                "Position": [
+                  3035.0,
+                  2102.0
+                ],
+                "Texture": "Naevi\\c22583b5-9807-4b36-ab15-2d79a768a5f8"
+              },
+              {
+                "$id": "396",
+                "Position": [
+                  3035.0,
+                  2102.0
+                ],
+                "Texture": "Naevi\\8800d0b9-4353-4772-acf4-d5e0d708e2f2"
+              },
+              {
+                "$id": "397",
+                "Position": [
+                  2591.0,
+                  1885.0
+                ],
+                "Texture": "Naevi\\cbf603d0-2b9d-40bd-a551-7857c6dfcb0c"
+              },
+              {
+                "$id": "398",
+                "Position": [
+                  2591.0,
+                  1885.0
+                ],
+                "Texture": "Naevi\\5662ac8e-5858-443a-944c-a844692653c6"
+              },
+              {
+                "$id": "399",
+                "Position": [
+                  2440.0,
+                  2088.0
+                ],
+                "Texture": "Naevi\\40edb9e4-4b42-4c23-bce3-f8e49a42c73c"
+              },
+              {
+                "$id": "400",
+                "Position": [
+                  2674.0,
+                  2185.0
+                ],
+                "Texture": "Naevi\\e934bb9d-4488-4fbd-be35-c397df9ceeca"
+              },
+              {
+                "$id": "401",
+                "Position": [
+                  2516.0,
+                  2453.0
+                ],
+                "Texture": "Naevi\\7f524d1a-5bd9-4eee-bfcb-a736729ac103"
+              },
+              {
+                "$id": "402",
+                "Position": [
+                  2736.0,
+                  2618.0
+                ],
+                "Texture": "Naevi\\1103d59b-6ea8-48a2-b60d-f56996685f54"
+              },
+              {
+                "$id": "403",
+                "Position": [
+                  2543.0,
+                  2824.0
+                ],
+                "Texture": "Naevi\\1afd8b99-b092-4119-a471-580145073fb4"
+              },
+              {
+                "$id": "404",
+                "Position": [
+                  2815.0,
+                  3062.0
+                ],
+                "Texture": "Naevi\\b4ea3ecd-5880-4cc4-8344-80b07ac3b6ea"
+              },
+              {
+                "$id": "405",
+                "Position": [
+                  3125.0,
+                  3151.0
+                ],
+                "Texture": "Naevi\\0d9e805d-7d81-4481-ac6b-9451d2e0e3f9"
+              },
+              {
+                "$id": "406",
+                "Position": [
+                  3355.0,
+                  2976.0
+                ],
+                "Texture": "Naevi\\134f142e-e585-4302-a0e6-f60221b08d53"
+              },
+              {
+                "$id": "407",
+                "Position": [
+                  3111.0,
+                  2814.0
+                ],
+                "Texture": "Naevi\\3bee1b14-eeda-47b4-b1ba-ab2a5004772d"
+              },
+              {
+                "$id": "408",
+                "Position": [
+                  2891.0,
+                  2814.0
+                ],
+                "Texture": "Naevi\\96185b7a-73d8-4016-80da-e6fad07b34ab"
+              },
+              {
+                "$id": "409",
+                "Position": [
+                  3001.0,
+                  2408.0
+                ],
+                "Texture": "Naevi\\7ea1b1aa-e3da-4823-9ada-57a40b65c0e7"
+              },
+              {
+                "$id": "410",
+                "Position": [
+                  3100.0,
+                  2584.0
+                ],
+                "Texture": "Naevi\\b5113b3a-1a40-4d84-9147-54f8c20b9c1e"
+              },
+              {
+                "$id": "411",
+                "Position": [
+                  3355.0,
+                  2515.0
+                ],
+                "Texture": "Naevi\\042e9970-a37e-4612-86f1-685e54f131bc"
+              }
+            ],
+            "TextureCoord": [
+              2.5,
+              0.5
+            ],
+            "Shape": "Naevi\\eeb2f832-d977-4294-9595-b093117f20ae",
+            "Size": 1.0
+          },
+          {
+            "$id": "412",
+            "Spread": 1.0,
+            "Elevation": 1.0,
+            "HighRes": [
+              {
+                "$id": "413",
+                "Position": [
+                  145.0,
+                  312.0
+                ],
+                "Texture": "Naevi\\ee627dbc-6d6b-4ff1-b516-a657769de798"
+              },
+              {
+                "$id": "414",
+                "Position": [
+                  457.0,
+                  269.0
+                ],
+                "Texture": "Naevi\\ba63f26e-5564-4f01-96fe-1ef0eec4b734"
+              },
+              {
+                "$id": "415",
+                "Position": [
+                  344.0,
+                  532.0
+                ],
+                "Texture": "Naevi\\930cf5bb-68b8-49e0-92f4-1e89593ed7d6"
+              },
+              {
+                "$id": "416",
+                "Position": [
+                  693.0,
+                  801.0
+                ],
+                "Texture": "Naevi\\75963747-3cf2-415c-9998-72902a185922"
+              },
+              {
+                "$id": "417",
+                "Position": [
+                  763.0,
+                  441.0
+                ],
+                "Texture": "Naevi\\2b560d54-0804-49ba-a6e4-332156310719"
+              },
+              {
+                "$id": "418",
+                "Position": [
+                  957.0,
+                  204.0
+                ],
+                "Texture": "Naevi\\3af2fb14-c667-4220-b096-9d428ba95fd1"
+              },
+              {
+                "$id": "419",
+                "Position": [
+                  1317.0,
+                  215.0
+                ],
+                "Texture": "Naevi\\ff77cc39-c12e-4e4b-b068-e9e70c3e8411"
+              },
+              {
+                "$id": "420",
+                "Position": [
+                  1134.0,
+                  489.0
+                ],
+                "Texture": "Naevi\\e5f9d53e-7434-48b9-9ceb-55a7ab2d3563"
+              },
+              {
+                "$id": "421",
+                "Position": [
+                  1682.0,
+                  366.0
+                ],
+                "Texture": "Naevi\\6dbd4ddf-b874-4e2f-b90a-700385913ba4"
+              },
+              {
+                "$id": "422",
+                "Position": [
+                  1462.0,
+                  538.0
+                ],
+                "Texture": "Naevi\\09d09f19-0f6a-4d03-ab7d-92993dc1b54f"
+              },
+              {
+                "$id": "423",
+                "Position": [
+                  1736.0,
+                  806.0
+                ],
+                "Texture": "Naevi\\578cde43-8cd7-4ced-bbb2-c6fe3f85dd9d"
+              },
+              {
+                "$id": "424",
+                "Position": [
+                  1505.0,
+                  914.0
+                ],
+                "Texture": "Naevi\\3236fd50-90e6-4044-8b03-147d074140f1"
+              },
+              {
+                "$id": "425",
+                "Position": [
+                  1134.0,
+                  769.0
+                ],
+                "Texture": "Naevi\\79a48510-bf92-4a78-9549-b372d072c66a"
+              },
+              {
+                "$id": "426",
+                "Position": [
+                  951.0,
+                  1037.0
+                ],
+                "Texture": "Naevi\\ef1664d7-b7a1-46e4-8789-f876dec0e710"
+              },
+              {
+                "$id": "427",
+                "Position": [
+                  1553.0,
+                  1290.0
+                ],
+                "Texture": "Naevi\\cbe91d39-6884-4554-a049-fb065a8ccea4"
+              },
+              {
+                "$id": "428",
+                "Position": [
+                  1258.0,
+                  1086.0
+                ],
+                "Texture": "Naevi\\cef4e487-9675-492d-ab0a-18fd604b8ea6"
+              },
+              {
+                "$id": "429",
+                "Position": [
+                  1000.0,
+                  1484.0
+                ],
+                "Texture": "Naevi\\da7f279f-7c8c-4071-a4d3-5c54776c839a"
+              },
+              {
+                "$id": "430",
+                "Position": [
+                  607.0,
+                  1188.0
+                ],
+                "Texture": "Naevi\\8994ab21-0cd2-4d4c-ae61-2e643295f1c3"
+              },
+              {
+                "$id": "431",
+                "Position": [
+                  328.0,
+                  989.0
+                ],
+                "Texture": "Naevi\\b73e6690-1721-4586-935d-97dc522775ae"
+              },
+              {
+                "$id": "432",
+                "Position": [
+                  441.0,
+                  1537.0
+                ],
+                "Texture": "Naevi\\3dc8fbc5-9984-47a8-b248-e05725afa061"
+              },
+              {
+                "$id": "433",
+                "Position": [
+                  661.0,
+                  1742.0
+                ],
+                "Texture": "Naevi\\2539534e-2441-4fcb-9f75-4162d0d9ce3c"
+              },
+              {
+                "$id": "434",
+                "Position": [
+                  1199.0,
+                  1822.0
+                ],
+                "Texture": "Naevi\\4bb81b63-bba6-44b1-90e0-3712d128898a"
+              },
+              {
+                "$id": "435",
+                "Position": [
+                  1419.0,
+                  1731.0
+                ],
+                "Texture": "Naevi\\dd2c1adc-d222-4784-86c9-36ca72ccc874"
+              },
+              {
+                "$id": "436",
+                "Position": [
+                  839.0,
+                  2150.0
+                ],
+                "Texture": "Naevi\\e3b13002-34c2-4de3-a8bc-48df0fa63131"
+              },
+              {
+                "$id": "437",
+                "Position": [
+                  505.0,
+                  2005.0
+                ],
+                "Texture": "Naevi\\35f829e8-43eb-4758-81e7-237ad2d76e67"
+              },
+              {
+                "$id": "438",
+                "Position": [
+                  548.0,
+                  2376.0
+                ],
+                "Texture": "Naevi\\0d40ee7d-3efb-4554-8904-88184a5740c3"
+              },
+              {
+                "$id": "439",
+                "Position": [
+                  898.0,
+                  2451.0
+                ],
+                "Texture": "Naevi\\c2fc08de-b939-4b3e-a85b-34bf46e89b21"
+              },
+              {
+                "$id": "440",
+                "Position": [
+                  1252.0,
+                  2392.0
+                ],
+                "Texture": "Naevi\\ac1df6b5-6375-4444-9f84-b61bbcdee7da"
+              },
+              {
+                "$id": "441",
+                "Position": [
+                  1204.0,
+                  2715.0
+                ],
+                "Texture": "Naevi\\3939927e-cd61-4767-83f5-8e4bcc4f2443"
+              },
+              {
+                "$id": "442",
+                "Position": [
+                  946.0,
+                  2897.0
+                ],
+                "Texture": "Naevi\\b353e74b-0abd-463b-ab06-1e372f66e048"
+              },
+              {
+                "$id": "443",
+                "Position": [
+                  672.0,
+                  2650.0
+                ],
+                "Texture": "Naevi\\13a0f65a-d6c5-4abe-9ec5-55715a4bdb90"
+              },
+              {
+                "$id": "444",
+                "Position": [
+                  543.0,
+                  2919.0
+                ],
+                "Texture": "Naevi\\b4340d22-50ac-4a28-bc7f-de317ffac3e6"
+              },
+              {
+                "$id": "445",
+                "Position": [
+                  645.0,
+                  3193.0
+                ],
+                "Texture": "Naevi\\0f145704-dca4-4140-81bf-897f4965966b"
+              },
+              {
+                "$id": "446",
+                "Position": [
+                  1113.0,
+                  3214.0
+                ],
+                "Texture": "Naevi\\cd635648-0fd5-48e0-9bf7-53bf3fcf6d48"
+              },
+              {
+                "$id": "447",
+                "Position": [
+                  1005.0,
+                  3569.0
+                ],
+                "Texture": "Naevi\\36d35950-0fcc-4720-b05b-1455731fa720"
+              },
+              {
+                "$id": "448",
+                "Position": [
+                  1188.0,
+                  3440.0
+                ],
+                "Texture": "Naevi\\e7d4d1c0-f7d0-4c0c-a9cc-aefd0f8c4295"
+              },
+              {
+                "$id": "449",
+                "Position": [
+                  1650.0,
+                  3311.0
+                ],
+                "Texture": "Naevi\\e422e23f-003b-4341-8265-afd65a1dd472"
+              },
+              {
+                "$id": "450",
+                "Position": [
+                  930.0,
+                  1892.0
+                ],
+                "Texture": "Naevi\\eb7b77b3-67ae-4acf-a880-a7c447058f5f"
+              },
+              {
+                "$id": "451",
+                "Position": [
+                  1161.0,
+                  2156.0
+                ],
+                "Texture": "Naevi\\1bc31cb1-58f4-4544-863a-ef8d876b6bae"
+              },
+              {
+                "$id": "452",
+                "Position": [
+                  2204.0,
+                  430.0
+                ],
+                "Texture": "Naevi\\b64fc4e8-3a3d-4373-86fa-ba663a6e597a"
+              },
+              {
+                "$id": "453",
+                "Position": [
+                  2489.0,
+                  258.0
+                ],
+                "Texture": "Naevi\\3ec6a7a6-7971-4f06-aaeb-4bcd0e750de4"
+              },
+              {
+                "$id": "454",
+                "Position": [
+                  2618.0,
+                  500.0
+                ],
+                "Texture": "Naevi\\a51eeae7-c2d9-4571-b6bc-6f198c2c63b9"
+              },
+              {
+                "$id": "455",
+                "Position": [
+                  2381.0,
+                  796.0
+                ],
+                "Texture": "Naevi\\1b433f9e-9702-4420-b926-e2cb90bd2404"
+              },
+              {
+                "$id": "456",
+                "Position": [
+                  2736.0,
+                  989.0
+                ],
+                "Texture": "Naevi\\e3d7c983-29df-4f66-825f-1c7c7d35b19a"
+              },
+              {
+                "$id": "457",
+                "Position": [
+                  2865.0,
+                  199.0
+                ],
+                "Texture": "Naevi\\f6dbefbb-97d8-406d-97ed-eee1abbc4eae"
+              },
+              {
+                "$id": "458",
+                "Position": [
+                  3247.0,
+                  382.0
+                ],
+                "Texture": "Naevi\\8e28bf35-5f3b-4cf7-8d01-20647048aed0"
+              },
+              {
+                "$id": "459",
+                "Position": [
+                  3016.0,
+                  624.0
+                ],
+                "Texture": "Naevi\\f310b5db-f744-449c-8a93-52513fe51ae9"
+              },
+              {
+                "$id": "460",
+                "Position": [
+                  3634.0,
+                  387.0
+                ],
+                "Texture": "Naevi\\4591f9ee-d7a8-4ecf-b977-007d059338d9"
+              },
+              {
+                "$id": "461",
+                "Position": [
+                  3709.0,
+                  742.0
+                ],
+                "Texture": "Naevi\\b78c3333-fbcf-4251-988f-eb2646affbc1"
+              },
+              {
+                "$id": "462",
+                "Position": [
+                  3381.0,
+                  656.0
+                ],
+                "Texture": "Naevi\\85e0ffec-e0ac-4eb3-82b2-b96b37c96061"
+              },
+              {
+                "$id": "463",
+                "Position": [
+                  3231.0,
+                  1113.0
+                ],
+                "Texture": "Naevi\\d77f5047-a2e1-4e27-8dbf-a443e67fcce6"
+              },
+              {
+                "$id": "464",
+                "Position": [
+                  3580.0,
+                  1199.0
+                ],
+                "Texture": "Naevi\\fc2e2778-53a9-4dea-ab8a-53f35f23d8ce"
+              },
+              {
+                "$id": "465",
+                "Position": [
+                  3483.0,
+                  1623.0
+                ],
+                "Texture": "Naevi\\4ba2d5f1-d5c0-46bd-b361-3d49cea50c16"
+              },
+              {
+                "$id": "466",
+                "Position": [
+                  3166.0,
+                  1478.0
+                ],
+                "Texture": "Naevi\\b45f001f-d153-498c-a81d-fa7e899b59ac"
+              },
+              {
+                "$id": "467",
+                "Position": [
+                  3026.0,
+                  908.0
+                ],
+                "Texture": "Naevi\\fc4eb61a-98ca-48c8-954e-472e96707991"
+              },
+              {
+                "$id": "468",
+                "Position": [
+                  2435.0,
+                  1252.0
+                ],
+                "Texture": "Naevi\\7e754a2c-d32a-49c1-b857-b0d3a7ba03c9"
+              },
+              {
+                "$id": "469",
+                "Position": [
+                  2634.0,
+                  1844.0
+                ],
+                "Texture": "Naevi\\ad4615d8-881a-4782-96a0-9b1b06f0fbd7"
+              },
+              {
+                "$id": "470",
+                "Position": [
+                  2870.0,
+                  1795.0
+                ],
+                "Texture": "Naevi\\17821e1b-5ea6-467c-9e9d-e8741b2cd5e6"
+              },
+              {
+                "$id": "471",
+                "Position": [
+                  3166.0,
+                  1758.0
+                ],
+                "Texture": "Naevi\\ded95528-4552-414a-a5c1-1ebb9e6abc8f"
+              },
+              {
+                "$id": "472",
+                "Position": [
+                  3139.0,
+                  2177.0
+                ],
+                "Texture": "Naevi\\9a973bbd-33f2-4652-9db4-c7467b2fc373"
+              },
+              {
+                "$id": "473",
+                "Position": [
+                  2801.0,
+                  2032.0
+                ],
+                "Texture": "Naevi\\84dd7c5d-c60c-4623-9be3-28857cd3ab12"
+              },
+              {
+                "$id": "474",
+                "Position": [
+                  2779.0,
+                  2419.0
+                ],
+                "Texture": "Naevi\\4dfb2960-c490-4211-8907-d277035dac64"
+              },
+              {
+                "$id": "475",
+                "Position": [
+                  3064.0,
+                  2526.0
+                ],
+                "Texture": "Naevi\\faf90d58-5f09-4689-8b88-d087d3bef46d"
+              },
+              {
+                "$id": "476",
+                "Position": [
+                  3462.0,
+                  1935.0
+                ],
+                "Texture": "Naevi\\ba7d04b7-42fd-4b20-a137-b0bf10d32c00"
+              },
+              {
+                "$id": "477",
+                "Position": [
+                  3564.0,
+                  2215.0
+                ],
+                "Texture": "Naevi\\acd558f1-66fa-4b5f-a3df-4febc501660d"
+              },
+              {
+                "$id": "478",
+                "Position": [
+                  3300.0,
+                  2392.0
+                ],
+                "Texture": "Naevi\\ac15e4e3-a624-4684-98c7-d4ddd69e91d1"
+              },
+              {
+                "$id": "479",
+                "Position": [
+                  3429.0,
+                  2612.0
+                ],
+                "Texture": "Naevi\\7fb6b12c-566f-4898-a4ac-6d99f30d09c6"
+              },
+              {
+                "$id": "480",
+                "Position": [
+                  3263.0,
+                  2903.0
+                ],
+                "Texture": "Naevi\\1d1aac73-4d4c-48a0-9f07-661c00907c0d"
+              },
+              {
+                "$id": "481",
+                "Position": [
+                  3489.0,
+                  3069.0
+                ],
+                "Texture": "Naevi\\a3450dde-324e-47e4-b255-d1afc41e065b"
+              },
+              {
+                "$id": "482",
+                "Position": [
+                  2940.0,
+                  3042.0
+                ],
+                "Texture": "Naevi\\c65277c4-a630-435d-b4e1-3f43ccea7d6a"
+              },
+              {
+                "$id": "483",
+                "Position": [
+                  2887.0,
+                  2768.0
+                ],
+                "Texture": "Naevi\\8da2eeef-9edc-4f6d-9abd-7559d228796f"
+              },
+              {
+                "$id": "484",
+                "Position": [
+                  2747.0,
+                  3075.0
+                ],
+                "Texture": "Naevi\\fc5fab9b-a939-4631-adb0-952c1bc7738e"
+              },
+              {
+                "$id": "485",
+                "Position": [
+                  2360.0,
+                  3591.0
+                ],
+                "Texture": "Naevi\\bca72d79-f411-4ab8-b46f-50116ca81ae2"
+              },
+              {
+                "$id": "486",
+                "Position": [
+                  2865.0,
+                  3360.0
+                ],
+                "Texture": "Naevi\\95260e9c-1248-4aee-a2cb-bfa4d8ddd28b"
+              },
+              {
+                "$id": "487",
+                "Position": [
+                  3080.0,
+                  3553.0
+                ],
+                "Texture": "Naevi\\9e468783-6554-4055-b80e-3c7a4a23d672"
+              }
+            ],
+            "TextureCoord": [
+              3.5,
+              0.5
+            ],
+            "Shape": "Naevi\\3b07cef0-77e4-447a-b102-67d9d89a9027",
+            "Size": 1.0
+          }
+        ],
+        "MelanomaEnabled": true,
+        "NaeviEnabled": true
+      },
+      "Anamnesis": {
+        "$id": "488",
+        "AnamnesisQuestions": [
+          {
+            "$id": "489",
+            "QuestionID": "talk-reason",
+            "AnswerText": "",
+            "FollowUpQuestions": []
+          },
+          {
+            "$id": "490",
+            "QuestionID": "talk-complaints",
+            "AnswerText": "",
+            "FollowUpQuestions": []
+          },
+          {
+            "$id": "491",
+            "QuestionID": "talk-medicine",
+            "AnswerText": "",
+            "FollowUpQuestions": []
+          },
+          {
+            "$id": "492",
+            "QuestionID": "talk-allergies",
+            "AnswerText": "",
+            "FollowUpQuestions": []
+          },
+          {
+            "$id": "493",
+            "QuestionID": "talk-dermatological-history",
+            "AnswerText": "",
+            "FollowUpQuestions": []
+          },
+          {
+            "$id": "494",
+            "QuestionID": "talk-family-dermatological-history",
+            "AnswerText": "",
+            "FollowUpQuestions": []
+          }
+        ]
+      },
+      "Agent": {
+        "$ref": "9"
+      }
+    }
+  ],
+  "Variants": [
+    {
+      "$id": "495",
+      "Environment": {
+        "$ref": "2"
+      },
+      "Pathology": {
+        "$ref": "10"
+      },
+      "Agent": {
+        "$ref": "9"
+      },
+      "Probability": 1.0
+    }
+  ],
+  "ScenarioSpecificSettings": {
+    "$id": "496",
+    "maxPicturesDermatoscope": ""
+  },
+  "UseUnifiedAnamnesisData": false
+}

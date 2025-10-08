@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1160051517968287115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 88376675610342065, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: Action
+      value: untersuchung.180drehung
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 376
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 835980786696467049, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462364480744956561, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100176809294176571, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      propertyPath: m_Name
+      value: ToggleButton Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 88376675610342065, guid: e865fb3282e105941b00ac9b1a01252d, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9100176809294176571, guid: e865fb3282e105941b00ac9b1a01252d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5680392135840856880}
+  m_SourcePrefab: {fileID: 100100000, guid: e865fb3282e105941b00ac9b1a01252d, type: 3}
+--- !u!1 &7949704511522415792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9100176809294176571, guid: e865fb3282e105941b00ac9b1a01252d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1160051517968287115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5680392135840856880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949704511522415792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5861d2709fb4e6b8bd0e4b3b1b0a490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Disabled: 0
+  DefaultTextColor: {r: 0.38039216, g: 0.7058824, b: 0.6313726, a: 1}
+  SelectedTextColor: {r: 1, g: 1, b: 1, a: 1}
+  DisabledOpacity: 0.7
+  InteractableCondition: 
+  ToggledInternalAction: {fileID: 0}
+  DefaultInternalAction: {fileID: 0}
+  DefaultActionRequestSender: {fileID: 0}
+  ToggledActionRequestSender: {fileID: 0}
+  DefaultPerceptionEventSender: {fileID: 0}
+  ToggledPerceptionEventSender: {fileID: 0}
+  DefaultLabel: Default Label
+  ToggledLabel: Toggled Label

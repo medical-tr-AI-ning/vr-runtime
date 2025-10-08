@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - projectile
+  - FxTemporaire
+  - DropzoneItem
+  - Highlight
+  - Glovebox
+  - Hand
+  - DropzoneTrash
+  - Ground
+  - DermaSkinPostPro
+  - Dermatoscope
+  - Table
+  - Head
+  - DoorHandle
+  - Dropzone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - DialogueUI
+  - RenderLast
+  - Chaperone
+  - Agent
+  - NoAgentCollision
+  - HideFromPlayer
+  - BehaviourSystem
+  - Player
+  - VisibleInDermatoscope
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

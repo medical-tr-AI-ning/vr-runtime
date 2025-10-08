@@ -1,0 +1,814 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 4SkinTypesWithHeightmap_Genitals
+  m_Shader: {fileID: -6465566751694194690, guid: 5af2bf8e4f80d234893ee7e32af6a98b,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
+  m_InvalidKeywords:
+  - _NORMALMAP_TANGENT_SPACE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisotropyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BentNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BentNormalMapOS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CC_Skintexture:
+        m_Texture: {fileID: 2800000, guid: 5ca1877d2a532f640be9f07ea16efbf1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CC_Skintextures:
+        m_Texture: {fileID: 2800000, guid: 5ca1877d2a532f640be9f07ea16efbf1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoatMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha:
+        m_Texture: {fileID: 2800000, guid: 99aea352212dccf45b59e3853648f209, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_1:
+        m_Texture: {fileID: 2800000, guid: 2b68027b88925164a924fb62df84dcca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_2:
+        m_Texture: {fileID: 2800000, guid: e1080fcca04238a45ba7011017931a83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_3:
+        m_Texture: {fileID: 2800000, guid: bedf6485f38612b4f823f396bdc163de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_Arms:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_Body:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_Head:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Alpha_Height_Normal_Alpha_Legs:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionAtlas:
+        m_Texture: {fileID: 2800000, guid: c3b0037b438c84541815d2d16723f721, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionHeightmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionHeightmap_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionHeightmap_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionHeightmap_3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionNormalAlpha:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionNormalAlpha_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionNormalAlpha_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionNormalAlpha_3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lesion_Array:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lesion_Atlas:
+        m_Texture: {fileID: 2800000, guid: c3b0037b438c84541815d2d16723f721, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lesion_Positions:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsArm_BottomLeft_2:
+        m_Texture: {fileID: 2800000, guid: bea9fa53c1017794e8fa6e36d0d88027, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsArm_BottomRight_2:
+        m_Texture: {fileID: 2800000, guid: c431faa1b19a9fb44bd873ddcce77e1d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsArm_TopLeft_2:
+        m_Texture: {fileID: 2800000, guid: 10d3dc37a99731d4e8bd7ad8d7d6fb71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsArm_TopRight_2:
+        m_Texture: {fileID: 2800000, guid: 9864c48c1acf15242acf6d6cf5a8a3b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsBody_BottomLeft_1:
+        m_Texture: {fileID: 2800000, guid: ff9cb42c9cb362b428b5e177c0300820, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsBody_BottomRight_1:
+        m_Texture: {fileID: 2800000, guid: e07a12788403eaa42bae5903549655e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsBody_TopLeft_1:
+        m_Texture: {fileID: 2800000, guid: ca9c0ecf3bb6d624eba775a6e689b4dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsBody_TopRight_1:
+        m_Texture: {fileID: 2800000, guid: bae83349ea06c9b4083ae32142ecbe55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsHead_BottomLeft:
+        m_Texture: {fileID: 2800000, guid: cf94ac3abfa318e46a1d886772893208, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsHead_BottomRight:
+        m_Texture: {fileID: 2800000, guid: f9c44104fe65b5640aa0ce57c5764844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsHead_TopLeft:
+        m_Texture: {fileID: 2800000, guid: d918bb392068c994ea7fc3b8289d99c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsHead_TopRight:
+        m_Texture: {fileID: 2800000, guid: e991db9bb75a2c84e969e0506084e08e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsLeg_BottomLeft_1:
+        m_Texture: {fileID: 2800000, guid: 984d9d2adca58a1459e6b7b8e36e4b43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsLeg_BottomRight_1:
+        m_Texture: {fileID: 2800000, guid: fb06d23ea49e00b4baa4b0392cc23c96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsLeg_TopLeft_1:
+        m_Texture: {fileID: 2800000, guid: 509e73ca19b656845ad6d33211a4fcbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsLeg_TopRight_1:
+        m_Texture: {fileID: 2800000, guid: 01b3abc603cbe6846ad5f2b8de246e73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1d4193e4cf2f4ecf82bf086a560e9e38_TextureBottomLeft_1115979614:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1d4193e4cf2f4ecf82bf086a560e9e38_TextureBottomRight_1735548070:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1d4193e4cf2f4ecf82bf086a560e9e38_TextureTopLeft_1377255172:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1d4193e4cf2f4ecf82bf086a560e9e38_TextureTopRight_1685960178:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1f9a4073ca9c448cb88ef70b5d544659_TextureBottomLeft_1115979614:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1f9a4073ca9c448cb88ef70b5d544659_TextureBottomRight_1735548070:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1f9a4073ca9c448cb88ef70b5d544659_TextureTopLeft_1377255172:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_1f9a4073ca9c448cb88ef70b5d544659_TextureTopRight_1685960178:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_721a57c773ce40588c774ecd084f88cd_TextureBottomLeft_1115979614:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_721a57c773ce40588c774ecd084f88cd_TextureBottomRight_1735548070:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_721a57c773ce40588c774ecd084f88cd_TextureTopLeft_1377255172:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_721a57c773ce40588c774ecd084f88cd_TextureTopRight_1685960178:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_b09674c2d85643da8ca899fae75856fa_TextureBottomLeft_1115979614:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_b09674c2d85643da8ca899fae75856fa_TextureBottomRight_1735548070:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_b09674c2d85643da8ca899fae75856fa_TextureTopLeft_1377255172:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsSubgraphForHeightmap_b09674c2d85643da8ca899fae75856fa_TextureTopRight_1685960178:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion1BottomLeft_1942093287:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion1BottomRight_3785678389:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion1TopLeft_1845315996:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion1TopRight_873644074:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion2BottomLeft_4201314911:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion2BottomRight_735746368:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion2TopLeft_4075874647:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion2TopRight_835500605:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion3BottomLeft1_3728051444:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion3BottomRight1_3821410743:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion3TopLeft1_3654705003:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion3TopRight1_1986961023:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion4BottomLeft2_2669823372:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion4BottomRight2_1028059188:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion4TopLeft2_538746557:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_Lesion4TopRight2_4005762036:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_LesionNormalAlpha1_511949959:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_LesionNormalAlpha2_1576218536:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_LesionNormalAlpha3_1021665659:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_LesionNormalAlpha_1527838601:
+        m_Texture: {fileID: 2800000, guid: da61c70af773b504fb146534a5352bb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_SkinLesion1_420190052:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_SkinLesion2_44079431:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_SkinLesionAlpha1_4052505470:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_SkinLesionAlpha_679644222:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LesionsTogetherSubgraphForHeightmap_20ca8399ed664e94a410b086f8fced3b_SkinLesion_563909964:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskArms:
+        m_Texture: {fileID: 2800000, guid: 2fcb779e8d3115342aaf2bf7b44be6c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskHead:
+        m_Texture: {fileID: 2800000, guid: 48c967f47293946418bb1c2605cebba9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskLegs:
+        m_Texture: {fileID: 2800000, guid: 6ab21d4477aef724ba8688309d377031, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTorso:
+        m_Texture: {fileID: 2800000, guid: cf04aa9e6ff43da4a9be49945dfcc906, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapOS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: 07175be66ac5531428ef43fc337ed5d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap_1:
+        m_Texture: {fileID: 2800000, guid: 4c6e171510446924eac91df1d22a5e3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_cc07b037fb1c4dd6ae15efab30b3463c_Heightmap_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_03ed34f38311472389bfed9c248fe451_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1a3cbef24b2948b9b92064a3140f1a6c_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fbac54d4894f4f52a900e8851dc4469d_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fff7c6c01e224cefb91d637d916cd873_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesion:
+        m_Texture: {fileID: 2800000, guid: 63a1950abea1e9c46a86ab2eff013329, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesionAlpha:
+        m_Texture: {fileID: 2800000, guid: e690700ed06392244b57f6a764d7d20c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesionAlpha_1:
+        m_Texture: {fileID: 2800000, guid: d7a79052637c8af4e9dbe892d782b649, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesionAlpha_2:
+        m_Texture: {fileID: 2800000, guid: d9f92c5bb7ef8a748ae1688d605bb842, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesionAlpha_3:
+        m_Texture: {fileID: 2800000, guid: 7c22f87f7ae9f5e4cacbfe85d342ab9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesion_1:
+        m_Texture: {fileID: 2800000, guid: 7e660588f8ee9c448ad4ec0b165afc99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesion_2:
+        m_Texture: {fileID: 2800000, guid: 24963015ee2779249bba8538336dcca1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinLesion_3:
+        m_Texture: {fileID: 2800000, guid: 92b3729c5021b1a42b7d9cc1f28e2cf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask_All:
+        m_Texture: {fileID: 2800000, guid: 1e451f33770a82a43ab721dd4ed605f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask_Arms:
+        m_Texture: {fileID: 2800000, guid: d6a94eb08c6948849ad3b72a0b2ef14f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask_Body:
+        m_Texture: {fileID: 2800000, guid: cc0225ef2dd9c1f4ba52635ee713781e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask_Genitals:
+        m_Texture: {fileID: 2800000, guid: 7840d9fbb7c08ad48b94d4822b5bc0fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask_Head:
+        m_Texture: {fileID: 2800000, guid: 4e5db14ebee680945b89b13f03b7f9d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask_Legs:
+        m_Texture: {fileID: 2800000, guid: 90f0db3564fae784cadb50d6a1bd7da1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMasks:
+        m_Texture: {fileID: 2800000, guid: 432262670fb20214eb281a4741f0461a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMapOS:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 0318d2b3bad30fa4791bf5a4451fec5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_bebb7dbf5d3a426eaf027f6a15ae59b2_Out_0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureArms:
+        m_Texture: {fileID: 2800000, guid: d7a9ea1d36374834cb322ad973861ebb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureHead:
+        m_Texture: {fileID: 2800000, guid: cfb19da01246fb142b0de77c0527461c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureLegs:
+        m_Texture: {fileID: 2800000, guid: ab6cc74c98afc0e4bb6e47d10942baaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureTorso:
+        m_Texture: {fileID: 2800000, guid: fef0c9040ae47db41a2ec90dc0d4e35c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_1:
+        m_Texture: {fileID: 2800000, guid: d27788e1d8b2d93439b26d7e952bc267, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_2:
+        m_Texture: {fileID: 2800000, guid: a4de7e98202fbcf4d9a3b7079c9ee4d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_3:
+        m_Texture: {fileID: 2800000, guid: f0d8346e2273c2243b71f348a96bfd67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_4:
+        m_Texture: {fileID: 2800000, guid: 934e2865d085e544d8baf7c204d395d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Arms:
+        m_Texture: {fileID: 2800000, guid: 934e2865d085e544d8baf7c204d395d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Body:
+        m_Texture: {fileID: 2800000, guid: 934e2865d085e544d8baf7c204d395d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Genitals:
+        m_Texture: {fileID: 2800000, guid: 934e2865d085e544d8baf7c204d395d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Head:
+        m_Texture: {fileID: 2800000, guid: 934e2865d085e544d8baf7c204d395d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Legs:
+        m_Texture: {fileID: 2800000, guid: 934e2865d085e544d8baf7c204d395d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransmittanceColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WhiteTexture:
+        m_Texture: {fileID: 2800000, guid: 8981f3073c86df045b24537c0f61c144, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AORemapMax: 1
+    - _AORemapMin: 0
+    - _ATDistance: 1
+    - _AddPrecomputedVelocity: 0
+    - _AlbedoAffectEmissive: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffPostpass: 0.5
+    - _AlphaCutoffPrepass: 0.5
+    - _AlphaCutoffShadow: 0.5
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _Anisotropy: 0
+    - _Blend: 0.6
+    - _BlendMode: 0
+    - _CoatMask: 0
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _Cutoff: 0.5
+    - _DepthOffsetEnable: 0
+    - _DetailAlbedoScale: 1
+    - _DetailNormalScale: 1
+    - _DetailSmoothnessScale: 1
+    - _DiffusionProfile: 0
+    - _DiffusionProfileHash: 0
+    - _DisplacementLockObjectScale: 1
+    - _DisplacementLockTilingScale: 1
+    - _DisplacementMode: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 0
+    - _EmissiveColorMode: 1
+    - _EmissiveExposureWeight: 1
+    - _EmissiveIntensity: 1
+    - _EmissiveIntensityUnit: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _EnableGeometricSpecularAA: 0
+    - _EnergyConservingSpecularColor: 1
+    - _ExcludeFromTUAndAA: 0
+    - _HairOpacity: 1.5
+    - _HairSmoothness: 1
+    - _HeightAmplitude: 0.02
+    - _HeightCenter: 0.5
+    - _HeightMapParametrization: 0
+    - _HeightMax: 1
+    - _HeightMin: -1
+    - _HeightOffset: 0
+    - _HeightPoMAmplitude: 2
+    - _HeightTessAmplitude: 2
+    - _HeightTessCenter: 0.5
+    - _InvTilingScale: 1
+    - _Ior: 1.5
+    - _IridescenceMask: 1
+    - _IridescenceThickness: 1
+    - _LesionHeightStrength: 0.4
+    - _LesionHeightStrength_1: 0.4
+    - _LesionHeightStrength_2: 0.4
+    - _LesionHeightStrength_3: 0.4
+    - _LesionHeightStrength_Arms: 0.4
+    - _LesionHeightStrength_Body: 0.4
+    - _LesionHeightStrength_Head: 0.4
+    - _LesionHeightStrength_Legs: 0.4
+    - _Lesion_Index: 0
+    - _LinkDetailsWithBase: 1
+    - _MaterialID: 1
+    - _Metallic: 0
+    - _MetallicRemapMax: 1
+    - _MetallicRemapMin: 0
+    - _NormalMapSpace: 0
+    - _NormalScale: 1
+    - _NormalStrength: 0.3
+    - _NormalStrength_1: 0.5
+    - _Number_Lesions_Total: 512
+    - _Number_Lesions_Width_Height: 8
+    - _OffsetX: 0
+    - _OffsetX_1: 1
+    - _OffsetX_2: 2
+    - _OffsetX_3: 3
+    - _OffsetX_Arms: 2
+    - _OffsetX_Body: 1
+    - _OffsetX_Head: 0
+    - _OffsetX_Legs: 3
+    - _OffsetY: 0
+    - _OffsetY_1: 0
+    - _OffsetY_2: 0
+    - _OffsetY_3: 0
+    - _OffsetY_Arms: 0
+    - _OffsetY_Body: 0
+    - _OffsetY_Head: 0
+    - _OffsetY_Legs: 0
+    - _OpaqueCullMode: 2
+    - _PPDLodThreshold: 5
+    - _PPDMaxSamples: 15
+    - _PPDMinSamples: 5
+    - _PPDPrimitiveLength: 1
+    - _PPDPrimitiveWidth: 1
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Size: 1
+    - _Size_1: 1
+    - _Size_2: 1
+    - _Size_3: 1
+    - _Size_Arms: 1
+    - _Size_Body: 1
+    - _Size_Head: 1
+    - _Size_Legs: 1
+    - _SkinMaskGenitals_Offset: -6
+    - _SkinSmoothness: 0.7
+    - _SkinTextureGenitals_Offset: -6
+    - _Smoothness: 0.5
+    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMin: 0
+    - _Source_Resolution: 20
+    - _SpecularAAScreenSpaceVariance: 0.1
+    - _SpecularAAThreshold: 0.2
+    - _SpecularOcclusionMode: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SubsurfaceMask: 1
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _Target_Resolution: 908
+    - _TexWorldScale: 1
+    - _TexWorldScaleEmissive: 1
+    - _Thickness: 1
+    - _Tiling: 50
+    - _Tiling_1: 20
+    - _Tiling_2: 20
+    - _Tiling_3: 20
+    - _TransmissionEnable: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UVBase: 0
+    - _UVDetail: 0
+    - _UVEmissive: 0
+    - _UseEmissiveIntensity: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
+    - _HairColor: {r: 0, g: 0, b: 0, a: 0}
+    - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
+    - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Offset: {r: -1, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Tiling_4: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
+    - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
+    - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8123938796544992587
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 

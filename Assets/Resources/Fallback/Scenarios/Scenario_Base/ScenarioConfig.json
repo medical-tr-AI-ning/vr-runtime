@@ -1,0 +1,50 @@
+{
+    "general": {
+        "caseSelection": "random",
+        "cases": [
+            {
+                "id": "Case1",
+                "agentId": "agent-0",
+                "environmentId": "environment-0",
+                "pathologyIds": [],
+                "selectionSpec": "1.0"
+            }
+        ]
+    },
+    "agents": [
+        {
+            "id": "agent-0",
+            "path": "agent-0",
+            "stats":
+            {
+                "age": 25,
+                "gender": "m",
+                "height": 182,
+                
+                "name": "Derma agent 0",
+                "skinType": 2,
+                "weight": 72.8
+            },
+            "model": {
+                "id": "model-0",
+                "name": "agent-0"
+            },
+        }
+    ],
+    "environments": [
+        {
+            "id": "environment-0",
+            "name": "Tutorial",
+            "rooms": [
+                {
+                    "id": "example",
+                    "name": "Example",
+                    "tools": [
+                        "Dermatoskop"
+                    ]
+                }
+            ]
+        }
+    ],
+    "pathologies": {}
+}
