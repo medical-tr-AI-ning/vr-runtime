@@ -61,9 +61,13 @@ jobs:
       - name: Pull Unity Editor image
         run: docker pull ${{ vars.UNITY_EDITOR_DOCKER_IMAGE }}
 
+      - name: Mask Serial
+        run: echo "::add-mask::${{ secrets.UNITY_SERIAL_MASKED }}"
+
       - name: Build Executable using Unity Editor
         env:
           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+          UNITY_SERIAL_MASKED: ${{ secrets.UNITY_SERIAL_MASKED }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           BUILD_NAME: ${{ vars.UNITY_BUILD_NAME }}
