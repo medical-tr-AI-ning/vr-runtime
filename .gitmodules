@@ -1,3 +1,3 @@
 [submodule "Submodules/common-assets"]
 	path = Submodules/common-assets
-	url = git@github.com:medical-tr-AI-ning/common-assets.git
+	url = https://github.com/medical-tr-AI-ning/common-assets.git
