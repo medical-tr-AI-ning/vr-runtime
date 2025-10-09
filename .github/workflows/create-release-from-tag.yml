@@ -96,7 +96,7 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
           set -euo pipefail
-          zip -r "${{ vars.ARTIFACT_BASE_NAME }}-${{ github.ref_name }}.zip" Builds
+          zip -r "${{ vars.ARTIFACT_BASE_NAME }}-${{ github.ref_name }}.zip" Builds/${{ vars.UNITY_BUILD_TARGET }}/*
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
