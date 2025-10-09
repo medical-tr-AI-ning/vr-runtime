@@ -1,6 +1,6 @@
 {
   "$id": "1",
-  "ScenarioName": "",
+  "ScenarioName": "Dermatological Examination Sample Scenario",
   "DisplayTitle": "Dermatological Examination Sample Scenario",
   "Description": "This scenario is the default example for a dermatological examination of a male patient. A dermatoscope is provided to examine the patient's melanoma and naevi.",
   "ModificationDate": "2025-01-17T16:40:23.331327+01:00",
