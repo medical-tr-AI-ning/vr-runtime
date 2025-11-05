@@ -37,12 +37,17 @@ To set up the Unity project and make contributions to the software yourself, the
 - Install `Unity Editor 2022.3.62f2` using the [Unity Hub Application](https://unity.com/download)
 - In case you don't have it yet, acquire a (free) Unity license in the Unity Hub Application
 
-## Cloning the respository
+## Cloning the repository
 
 This project uses common assets which are stored in a [separate submodule](https://github.com/medical-tr-AI-ning/common-assets).
 To ensure that all required assets are present in the project, you need to clone the reposity using the `--recurse-submodules` option, e.g. `
 `git clone https://github.com/medical-tr-AI-ning/vr-runtime.git --recurse-submodules`
 
+## Workflow
+
+- Import project folder into Unity Hub using `Add project from disk` and open the project
+- The main scene to run the application is located at `Scenes/General/Menu`
+- The configurable medical environment is located at `Scenes/Scenarios/default`
 
 
 <img width="3991" height="556" alt="sponsors" src="https://github.com/user-attachments/assets/c61efca6-6182-4ea9-9d36-694a2506dc79" />
