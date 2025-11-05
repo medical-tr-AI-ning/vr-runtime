@@ -19,17 +19,30 @@ It is possible to intuitively create individual scenarios by customizing specifi
 
 To run the medical tr.AI.ning VR application the requirements are:
 - System capable of running modern VR Applications
-- VR-Headset and Controllers (application is targeted towards the Valve Index, but other HMDs may work as well)
+- VR-Headset and Controllers (application is targeted towards the Valve Index, but other HMDs can be used as well)
 - SteamVR installed
 
 ## Setup
 
 - Download the newest version from the [Releases](https://github.com/medical-tr-AI-ning/vr-runtime/releases) and extract the files.
 - Once extracted, run `runtime.exe`.
+- If you are using an HMD which is not the Valve Index, you may need to [rebind the controls in SteamVR](https://steamcommunity.com/sharedfiles/filedetails/?id=1545634111)
 
-# Unity Project Setup
+# Development
 
 To set up the Unity project and make contributions to the software yourself, these steps must be followed:
+
+## Requirements
+
+- Install `Unity Editor 2022.3.62f2` using the [Unity Hub Application](https://unity.com/download)
+- In case you don't have it yet, acquire a (free) Unity license in the Unity Hub Application
+
+## Cloning the respository
+
+This project uses common assets which are stored in a [separate submodule](https://github.com/medical-tr-AI-ning/common-assets).
+To ensure that all required assets are present in the project, you need to clone the reposity using the `--recurse-submodules` option, e.g. `
+`git clone https://github.com/medical-tr-AI-ning/vr-runtime.git --recurse-submodules`
+
 
 
 <img width="3991" height="556" alt="sponsors" src="https://github.com/user-attachments/assets/c61efca6-6182-4ea9-9d36-694a2506dc79" />
