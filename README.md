@@ -7,9 +7,9 @@
 
 medical tr.AI.ning is a virtual reality training platform, designed for integration into the medical curriculum to enhance the clinical reasoning capabilities of future physicians.
 
-The platform allows medical students to train clinical competencies from a first-person perspective with virtual, intelligent and interactive patients in an authentic simulated environment.
+The platform allows medical students to train clinical competencies from a first-person perspective with virtual, intelligent and interactive patients in an authentic simulated environment. Individual scenarios can be intuitively created by customizing specific parameters regarding patient, pathology and environment to support situated learning.
 
-It is possible to intuitively create individual scenarios by customizing specific parameters regarding patient, pathology and environment to support situated learning, using the supplemented [authoring tool](https://github.com/medical-tr-AI-ning/authoring-tool).
+**This repository contains the virtual reality runtime application, used to experience medical scenarios with a virtual reality headset.**
 
 [Read more about the project](https://medical-training-project.de/en/#project)
 
