@@ -26,7 +26,7 @@ To run the medical tr.AI.ning VR application the requirements are:
 
 - Download the newest version from the [Releases](https://github.com/medical-tr-AI-ning/vr-runtime/releases) and extract the files.
 - Once extracted, run `runtime.exe`.
-- If you are using an HMD which is not the Valve Index, you may need to [rebind the controls in SteamVR](https://steamcommunity.com/sharedfiles/filedetails/?id=1545634111)
+- **If you are using a VR Headset which is not the Valve Index, you need to follow [this tutorial to rebind the controls in SteamVR](https://github.com/medical-tr-AI-ning/.github/wiki/How-to-use-other-VR-Headsets-(not-the-Valve-Index))**
 
 # Development
 
