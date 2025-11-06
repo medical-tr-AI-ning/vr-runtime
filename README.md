@@ -13,6 +13,23 @@ The platform allows medical students to train clinical competencies from a first
 
 [Read more about the project](https://medical-training-project.de/en/#project)
 
+# Features
+
+## Virtual Anamesis
+**This project allows you to experience an immersive patient interview and examination simulation in virtual reality with a focus on dermatology.**
+
+- **Review the individual patient record**
+- **Conduct a patient interview and identify possible risk factors**
+- **Examine the patient's skin for dermatological abnormalities using a dermatoscope**
+- **Take pictures and review the magnified skin condition on a bigger screen**
+- **Ask the patient to undress or change body posture for a more thorough examination**
+
+<img  height="280" src="https://github.com/user-attachments/assets/b2d02099-aaff-4e8a-80f6-dc7e898d2c08" />
+<img  height="280" src="https://github.com/user-attachments/assets/a825791e-394f-490a-9d23-c955ec042617" />
+
+## Custom Scenarios
+**You can create custom environments, patients and scenarios using the supplemented [Authoring Tool](https://github.com/medical-tr-AI-ning/authoring-tool)**
+
 # Usage
 
 ## Requirements
@@ -48,6 +65,5 @@ To ensure that all required assets are present in the project, you need to clone
 - Import project folder into Unity Hub using `Add project from disk` and open the project
 - The main scene to run the application is located at `Scenes/General/Menu`
 - The configurable medical environment is located at `Scenes/Scenarios/default`
-
 
 <img width="3991" height="556" alt="sponsors" src="https://github.com/user-attachments/assets/c61efca6-6182-4ea9-9d36-694a2506dc79" />
