@@ -11,7 +11,7 @@ The platform allows medical students to train clinical competencies from a first
 
 **This repository contains the virtual reality runtime application, used to experience medical scenarios with a virtual reality headset.**
 
-[Read more about the project](https://medical-training-project.de/en/#project)
+**[Read more about the project](https://medical-training-project.de/en/#project)**
 
 # Features
 
@@ -29,6 +29,8 @@ The platform allows medical students to train clinical competencies from a first
 
 ## Custom Scenarios
 **You can create custom environments, patients and scenarios using the supplemented [Authoring Tool](https://github.com/medical-tr-AI-ning/authoring-tool)**
+
+**[Learn how to work with custom scenarios](https://github.com/medical-tr-AI-ning/.github/wiki/How-to-use-custom-scenarios-in-VR)**
 
 # Usage
 
