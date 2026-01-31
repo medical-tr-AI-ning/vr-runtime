@@ -306,7 +306,19 @@ namespace MedicalTraining.Configuration
             ScenarioConfigReader scenarioConfigReader = gameObject.AddComponent<ScenarioConfigReader>();
             scenarioConfigReader.PrepareScenarioConfig(scenario, scenarioConfigDir);
 
-            string sceneName = this.m_config.Scenario.Environment.EnvironmentID;  // TODO: Exception handling if scene not found?
+            string sceneName =
+                this.m_config.Scenario.Environment.EnvironmentID; // TODO: Exception handling if scene not found?
+
+            bool sceneValid = SceneUtility.GetBuildIndexByScenePath(sceneName) != -1;
+            if (!sceneValid)
+            {
+                Debug.LogError("Scene with name {sceneName} does not exist! It might not be supported");
+                throw new NotImplementedException(
+                    $"Umgebung '{sceneName}' kann nicht geladen werden.");
+            }
+
+            this.LoadLoadingScene();
+
             StartCoroutine(this.LoadSceneAsyncAfterAssetLoader(sceneName));
         }
     }

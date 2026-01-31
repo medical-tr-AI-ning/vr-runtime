@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -95,7 +96,17 @@ public class StartMenu : MonoBehaviour
     {
         if (ValidateAndStoreInput(allowEmptyInputs: false))
         {
-            SceneLoader.Instance.LoadSelectedScenario();
+            try
+            {
+                SceneLoader.Instance.LoadSelectedScenario();
+            }
+            catch (Exception e)
+            {
+                _errorOutput.text = e.Message;
+                _errorOutputFrame.SetActive(true);
+                return;
+            }
+
             this.DisableStartButtons();
         }
     }
