@@ -25,6 +25,7 @@ namespace MedicalTraining.Dialogue.ActionHandlers
             switch (action)
             {
                 case "save-photo":
+                    if (_dermatoscope == null) return;
                     _dermatoscope.SavePhoto();
                     break;
                 case "request-help":
@@ -46,11 +47,14 @@ namespace MedicalTraining.Dialogue.ActionHandlers
 
         private void setupSubscriptions()
         {
-            _dermatoscope.SavePhotoAvailable += () => TriggerCondition(SAVE_PHOTO_AVAILABLE_CONDITION, true);
-            _dermatoscope.SavePhotoUnavailable += () => TriggerCondition(SAVE_PHOTO_AVAILABLE_CONDITION, false);
+            if (_dermatoscope != null)
+            {
+                _dermatoscope.SavePhotoAvailable += () => TriggerCondition(SAVE_PHOTO_AVAILABLE_CONDITION, true);
+                _dermatoscope.SavePhotoUnavailable += () => TriggerCondition(SAVE_PHOTO_AVAILABLE_CONDITION, false);
+            }
+
             AgentNaked += () => TriggerCondition(AGENT_NAKED_CONDITION, true);
             AgentClothed += () => TriggerCondition(AGENT_NAKED_CONDITION, false);
-
         }
 
         private AgentController getActiveAgentController()

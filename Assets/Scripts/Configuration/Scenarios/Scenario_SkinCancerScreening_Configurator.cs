@@ -52,7 +52,14 @@ namespace MedicalTraining.Configuration.Scenarios
 
             // Set up post processing for dermatoscope
             // Find dermatoscope
-            GameObject dermatoscope = this.ObjectsRoot.transform.Find("DigitalDermatoscopeRuntime").gameObject;
+            Transform dermatoscopeTransform = this.ObjectsRoot.transform.Find("DigitalDermatoscope");
+
+            
+            //Skip all Dermatoscope and High-Res setup if no Dermatoscope present in Scene
+            if (dermatoscopeTransform is null) return;
+
+
+            GameObject dermatoscope = dermatoscopeTransform.gameObject;
 
             // Add screen to take photo component
             TakePhoto takePhoto = dermatoscope.GetComponentInChildren<TakePhoto>();
