@@ -77,6 +77,7 @@ namespace Speech.Scripts.Synthesis
                     else
                     {
                         Debug.LogError($"Speech Response failed {response.StatusCode}");
+                        throw new HttpRequestException($"Speech Response failed {response.StatusCode}");
                     }
                 }
             }

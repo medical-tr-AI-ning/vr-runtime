@@ -45,8 +45,9 @@ namespace Speech.Scripts.Synthesis
         private int _maxConcurrentSynthesis = 5;
         private int _currentConcurrentSynthesis = 0;
 
-        private Queue<SpeechSynthesisEventArgs> _pendingSynthesisOutputs;
+        private Queue<SpeechSynthesisSuccessEventArgs> _pendingSynthesisOutputs;
         private bool _outputStarted;
+        private bool _fallbackSubtitles;
         public int pendingOutputs => _pendingSynthesisOutputs.Count + utterances.Count + (IsTalking ? 1 : 0);
 
         private int _maxOutputListLength = 0;
@@ -62,7 +63,7 @@ namespace Speech.Scripts.Synthesis
         protected override void Start()
         {
             base.Start();
-            _pendingSynthesisOutputs = new Queue<SpeechSynthesisEventArgs>();
+            _pendingSynthesisOutputs = new Queue<SpeechSynthesisSuccessEventArgs>();
             HideSubtitle();
 
             Debug.Assert(_speechSynthesizer != null, "Assertion Error: No SpeechSynthesizer set.", this);
@@ -70,6 +71,12 @@ namespace Speech.Scripts.Synthesis
             // speech is synthesized in chunks for faster start.
             _speechSynthesizer.SpeechSynthesisChunkCompleted += (s, e) => { 
                 _pendingSynthesisOutputs.Enqueue(e);
+                _currentConcurrentSynthesis--;
+            };
+
+            _speechSynthesizer.SpeechSynthesisChunkFailed += (sender, e) =>
+            {
+                DisplayFallbackSubtitle(e.UtteranceText);
                 _currentConcurrentSynthesis--;
             };
         }
@@ -163,6 +170,12 @@ namespace Speech.Scripts.Synthesis
             _subtitleContainer?.HideSubtitle();
         }
 
+        public void DisplayFallbackSubtitle(string subtitle)
+        {
+            _fallbackSubtitles = true;
+            _subtitleContainer?.ShowSubtitle(subtitle);
+        }
+
         public override void StopSpeaking()
         {
             if (_audioOutputConfig.outputPatient)
@@ -189,7 +202,7 @@ namespace Speech.Scripts.Synthesis
             await _speechSynthesizer.Synthesize(utterance);
         }
 
-        private void PlaybackOutput(SpeechSynthesisEventArgs arg)
+        private void PlaybackOutput(SpeechSynthesisSuccessEventArgs arg)
         {
             StartCoroutine(SetAudioClip(arg.FilePath, arg.Voice));
         }
