@@ -41,8 +41,7 @@ namespace Speech.Scripts.Synthesis
             {
                 // TODO: More resilient error handling
                 Debug.LogError($"Speech Response failed {response.StatusCode}");
-
-                return;
+                throw new HttpRequestException($"Speech Response failed {response.StatusCode}");
             }
 
             var bytes = await response.Content.ReadAsByteArrayAsync();

@@ -13,6 +13,8 @@ namespace Speech.Scripts.Synthesis
         private static readonly string SUFFIX = ".mp3";
 
         public event SpeechSynthesisEventHandler SpeechSynthesisChunkCompleted;
+
+        public event SpeechSynthesisFailedEventHandler SpeechSynthesisChunkFailed;
         private List<string> _cachedItemsList;
 
         protected abstract string CacheDirName { get; }
@@ -34,7 +36,14 @@ namespace Speech.Scripts.Synthesis
                 throw new ArgumentException(nameof(Utterance.Text));
             }
 
-            await SynthesizeImpl(utterance);
+            try
+            {
+                await SynthesizeImpl(utterance);
+            }
+            catch (Exception e)
+            {
+                SendSpeechSynthesisChunkFailed(this, new SpeechSynthesisFailedEventArgs { UtteranceText = utterance.Text, ErrorMessage = e.Message}); 
+            }
         }
         #endregion
 
@@ -47,14 +56,14 @@ namespace Speech.Scripts.Synthesis
             string path = PersistentSpeechFileManager.GetFilePath(hash + SUFFIX, CacheDirName);
             StorePersistentSpeechFile(contents, path);
             _cachedItemsList.Add(hash);
-            SendSpeechSynthesisChunkCompleted(this, new SpeechSynthesisEventArgs { UtteranceText = utterance.Text, FilePath = path, Voice = utterance.VoiceType });
+            SendSpeechSynthesisChunkCompleted(this, new SpeechSynthesisSuccessEventArgs { UtteranceText = utterance.Text, FilePath = path, Voice = utterance.VoiceType });
         }
 
         protected void HandleSpeechSynthesisCached(Utterance utterance)
         {
             string hash = createHashForUtterance(utterance);
             string path = PersistentSpeechFileManager.GetFilePath(hash + SUFFIX, CacheDirName);
-            SendSpeechSynthesisChunkCompleted(this, new SpeechSynthesisEventArgs { UtteranceText = utterance.Text, FilePath = path, Voice = utterance.VoiceType });
+            SendSpeechSynthesisChunkCompleted(this, new SpeechSynthesisSuccessEventArgs { UtteranceText = utterance.Text, FilePath = path, Voice = utterance.VoiceType });
         }
 
         protected bool isCached(Utterance utterance)
@@ -89,9 +98,14 @@ namespace Speech.Scripts.Synthesis
             }
         }
 
-        private void SendSpeechSynthesisChunkCompleted(object sender, SpeechSynthesisEventArgs args)
+        private void SendSpeechSynthesisChunkCompleted(object sender, SpeechSynthesisSuccessEventArgs args)
         {
             SpeechSynthesisChunkCompleted?.Invoke(sender, args);
+        }
+        
+        private void SendSpeechSynthesisChunkFailed(object sender, SpeechSynthesisFailedEventArgs args)
+        {
+            SpeechSynthesisChunkFailed?.Invoke(sender, args);
         }
 
         private void StorePersistentSpeechFile(byte[] contents, string path)
@@ -101,5 +115,7 @@ namespace Speech.Scripts.Synthesis
         #endregion
     }
 
-    public delegate void SpeechSynthesisEventHandler(object sender, SpeechSynthesisEventArgs args);
+    public delegate void SpeechSynthesisEventHandler(object sender, SpeechSynthesisSuccessEventArgs args);
+    
+    public delegate void SpeechSynthesisFailedEventHandler(object sender, SpeechSynthesisFailedEventArgs args);
 }

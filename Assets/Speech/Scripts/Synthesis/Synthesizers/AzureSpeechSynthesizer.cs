@@ -64,6 +64,7 @@ namespace Speech.Scripts.Synthesis
                     {
                         var cancellation = SpeechSynthesisCancellationDetails.FromResult(result);
                         Debug.LogWarning($"Speech Synthetization canceled: Reason={cancellation.Reason}", this);
+                        throw new System.Exception("Speech Synthetization failed.");
 
                         if (cancellation.Reason == CancellationReason.Error)
                         {
